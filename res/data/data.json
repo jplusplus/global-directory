@@ -1,0 +1,118 @@
+{
+    "name": "contentItems",
+    "children": [
+        {
+            "id": 1,
+            "title": "Yordi Dam",
+            "name": "Dam",
+            "vorname": "Yordi",
+            "country": "The Netherlands",
+            "institution": "LocalFocus",
+            "skills": [
+                "Data Journalist", 
+                "Designer"
+            ],
+            "image_url": "res/img/yordi_dam.png",
+            "url": "http://www.twitter.com/yordidam"
+        },
+        {
+            "id": 2,
+            "title": "Jelle Kamsma",
+            "name": "Kamsma",
+            "vorname": "Jelle",
+            "country": "The Netherlands",
+            "institution": "LocalFocus",
+            "skills": [
+                "Data Journalist"
+            ],
+            "image_url": "res/img/jelle_kamsma.png",
+            "url": "http://www.twitter.com/ddjelle"
+        },
+        {
+            "id": 3,
+            "title": "Mirko Lorenz",
+            "name": "Lorenz",
+            "vorname": "Mirko",
+            "country": "Germany",
+            "institution": "Journalism++ Cologne",
+            "skills": [
+                "Lecturer",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/mirko_lorenz.png",
+            "url": "http://www.twitter.com/mirkolorenz"
+        },
+        {
+            "id": 4,
+            "title": "Cosmin Cabulea",
+            "name": "Cosmin",
+            "vorname": "Cabulea",
+            "country": "Germany",
+            "institution": "Journalism++ Cologne",
+            "skills": [
+                "Data Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/cosmin_cabulea.png",
+            "url": "http://www.twitter.com/pushthings4ward"
+        },
+        {
+            "id": 5,
+            "title": "Nicolas Kayser-Bril",
+            "name": "Kayser-Bril",
+            "vorname": "Nicolas",
+            "country": "Germany",
+            "institution": "Journalism++",
+            "skills": [
+                "Data Journalist"
+            ],
+            "image_url": "res/img/nicolas_kasyer_bril.png",
+            "url": "http://www.twitter.com/nicolaskb"
+        },
+        {
+            "id": 6,
+            "title": "Jens Finnäs",
+            "name": "Finnäs",
+            "vorname": "Jens",
+            "country": "Sweden",
+            "institution": "Journalism++ Stockholm",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Developer"
+            ],
+            "image_url": "res/img/jens_finnas.png",
+            "url": "http://www.twitter.com/jensfinnas"
+        },
+        {
+            "id": 7,
+            "title": "Peter Gresund",
+            "name": "Grensund",
+            "vorname": "Peter",
+            "country": "Sweden",
+            "institution": "Journalism++ Stockholm",
+            "skills": [
+                "Researcher",
+                "Journalist"
+            ],
+            "image_url": "res/img/peter_gresund.png",
+            "url": "http://www.twitter.com/grensund"
+        },
+        {
+            "id": 8,
+            "title": "Pierre Romera",
+            "name": "Romera",
+            "vorname": "Pierre",
+            "country": "France",
+            "institution": "Journalism++",
+            "skills": [
+                "Lecturer",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/pierre_romera.png",
+            "url": "http://www.twitter.com/pirhoo"
+        }
+        
+        
+    ]
+}

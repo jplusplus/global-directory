@@ -1,0 +1,119 @@
+body{
+    background: #fafafa;
+}
+
+.pyk-news-discovery #grid{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    margin-left: 10px;
+
+
+}
+
+.pyk-news-discovery #grid li{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    float: left;
+    margin-bottom: 2px;
+    display:block;
+    width: 137.5px;
+    height: 180px;
+    overflow:hidden;
+
+
+
+    background: #fff;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+.pyk-news-discovery #grid li a{
+    display: block;
+    width: 137.5px;
+    height: 180px;
+    padding: 10px;
+    padding-top: 20px;
+
+
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+
+    transition: all 0.3s ease;
+}
+
+.pyk-news-discovery #grid li a:hover{
+    background: #DDFF99;
+    transition: all 0.3s ease;
+}
+
+
+.pyk-news-discovery .tag-holder > div{
+    height: 300px;
+    overflow: hidden;
+    background: #fff;
+    padding: 3px;
+    width: 260px;
+    box-shadow: 0 0 10px #aaa;
+    margin: 10px;
+}
+
+.pyk-news-discovery .tag-holder > div div{
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.pyk-news-discovery .tag-holder > div h4{
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 10px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+}
+
+.pyk-news-discovery .tag-list{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style: none;
+}
+
+.pyk-news-discovery .tag-list li{
+    font-size: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    background: #fff;
+
+    transition: all 0.3s ease;
+}
+
+
+.pyk-news-discovery .tag-list li:hover{
+    background: #EEFFCC;
+    transition: all 0.3s ease;
+}
+
+
+.pyk-news-discovery .tag-list li.active{
+    background: #DDFF99;
+    transition: all 0.3s ease;
+}
+
+
+.pyk-news-discovery .tag-list li a{
+    color: #666;
+}
+
+.pyk-news-discovery .tag-list li a:hover{
+    text-decoration: none;
+}
+
+.pyk-news-discovery .tag-list li a span.badge{
+    background: transparent;
+    font-weight: 200;
+    color: #999;
+    float: right;
+}

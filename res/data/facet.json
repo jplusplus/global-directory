@@ -1,0 +1,27 @@
+{
+    "name": "facets",
+    "children":
+    [
+        {
+            "type": "nominal",
+            "label": "country",
+            "name": "country"
+        },
+        
+        {
+            "type": "nominal",
+            "label": "institution",
+            "name": "institution"
+        },
+        {
+            "type": "nominal",
+            "label": "skills",
+            "name": "skills"
+        },
+        {
+            "type": "nominal",
+            "label": "name",
+            "name": "title"
+        }
+    ]
+}
