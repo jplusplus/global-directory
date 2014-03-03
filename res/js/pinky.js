@@ -87,7 +87,7 @@ Pyk.newsDiscovery = function(){
             .html(function(d){
                 var link = "<a href='#'>" + d.key;
                 link += "<span class='badge'>" + d.value + "</span>";
-                link += "</a>"
+                link += "</a>";
                 return link;
             })
             .classed("active", function(d){
@@ -108,7 +108,7 @@ Pyk.newsDiscovery = function(){
             .html(function(d){
                 var link = "<a href='#'>" + d.key;
                 link += "<span class='badge'>" + d.value + "</span>";
-                link += "</a>"
+                link += "</a>";
                 return link;
             })
             .classed("active", function(d){
@@ -128,7 +128,7 @@ Pyk.newsDiscovery = function(){
             .html(function(d){
                 var link = "<a href='#'>" + d.key;
                 link += "<span class='badge'>" + d.value + "</span>";
-                link += "</a>"
+                link += "</a>";
                 return link;
             })
             .classed("active", function(d){
@@ -149,7 +149,7 @@ Pyk.newsDiscovery = function(){
                 var a = that._findArticleById(d.key);
                 var link = "<a href='#'>" + a.title;
                 link += "<span class='badge'>" + d.value + "</span>";
-                link += "</a>"
+                link += "</a>";
                 return link;
             })
             .classed("active", function(d){
@@ -167,7 +167,7 @@ Pyk.newsDiscovery = function(){
             .html(function(d,i){
                 if(i<12) {
                     var a = that._findArticleById(d.key);
-                    var link = "<a target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title + "</a>";
+                    var link = "<a class='thumbnail' target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title + "</a>";
                     return link;
                 } else {
                     $(this).hide();
