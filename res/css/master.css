@@ -8,7 +8,7 @@ body{
 }
 
 .title {
-    font-size   : 4em;
+    font-size   : 6em;
     font-family : 'Josefin Slab', serif;
 }
 
@@ -30,6 +30,7 @@ body{
     height        : 180px;
     overflow      : hidden;
     background    : #fff;
+    text-align    : center;
 }
 
 .pyk-news-discovery #grid li a {
