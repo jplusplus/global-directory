@@ -111,6 +111,19 @@
             ],
             "image_url": "res/img/pierre_romera.png",
             "url": "http://www.twitter.com/pirhoo"
+        },
+        {
+            "id": 9,
+            "title": "Pierre Bellon",
+            "name": "Romera",
+            "vorname": "Bellon",
+            "country": "France",
+            "institution": "Journalism++",
+            "skills": [
+                "Developer"
+            ],
+            "image_url": "res/img/pierre_bellon.png",
+            "url": "http://www.twitter.com/Toutenrab"
         }
         
         
