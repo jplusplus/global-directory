@@ -7,7 +7,12 @@
             "name": "Dam",
             "firstname": "Yordi",
             "country": "The Netherlands",
+            "city": "Amsterdam",
             "institution": "LocalFocus",
+            "github":"",
+            "website": "http://www.localfocus.nl",
+            "email":"yordi@localfocus.nl",
+            "publicgpgkey":"",
             "skills": [
                 "Data Journalist", 
                 "Designer"
@@ -21,7 +26,12 @@
             "name": "Kamsma",
             "firstname": "Jelle",
             "country": "The Netherlands",
+            "city": "Amsterdam",
             "institution": "LocalFocus",
+            "github":"",
+            "website": "http://www.localfocus.nl",
+            "email":"jelle@localfocus.nl",
+            "publicgpgkey":"",
             "skills": [
                 "Data Journalist"
             ],
@@ -34,7 +44,12 @@
             "name": "Lorenz",
             "firstname": "Mirko",
             "country": "Germany",
+            "city": "Cologne",
             "institution": "Journalism++ Cologne",
+            "github":"",
+            "website": "http://cologne.jplusplus.org",
+            "email":"mirko@jplusplus.org",
+            "publicgpgkey":"",
             "skills": [
                 "Lecturer",
                 "Data Journalist"
@@ -48,7 +63,12 @@
             "name": "Cosmin",
             "firstname": "Cabulea",
             "country": "Germany",
+            "city": "Cologne",
             "institution": "Journalism++ Cologne",
+            "github":"",
+            "website": "http://cologne.jplusplus.org",
+            "email":"cosmin@jplusplus.org",
+            "publicgpgkey":"",
             "skills": [
                 "Data Journalist",
                 "Lecturer"
@@ -62,7 +82,12 @@
             "name": "Kayser-Bril",
             "firstname": "Nicolas",
             "country": "Germany",
+            "city": "Berlin",
             "institution": "Journalism++",
+            "github":"",
+            "website": "http://www.nkb.fr",
+            "email":"",
+            "publicgpgkey":"",
             "skills": [
                 "Data Journalist"
             ],
@@ -75,7 +100,12 @@
             "name": "Finnäs",
             "firstname": "Jens",
             "country": "Sweden",
+            "city": "Stockholm",
             "institution": "Journalism++ Stockholm",
+            "github":"",
+            "website": "http://www.jensfinnas.com",
+            "email":"jens.finnas@gmail.com",
+            "publicgpgkey":"",
             "skills": [
                 "Data Journalist",
                 "Journalist",
@@ -90,7 +120,12 @@
             "name": "Grensund",
             "firstname": "Peter",
             "country": "Sweden",
+            "city": "Stockholm",
             "institution": "Journalism++ Stockholm",
+            "github":"",
+            "website": "http://www.jplusplus.se",
+            "email":"grensund@gmail.com",
+            "publicgpgkey":"",
             "skills": [
                 "Researcher",
                 "Journalist"
@@ -104,7 +139,12 @@
             "name": "Romera",
             "firstname": "Pierre",
             "country": "France",
+            "city": "Paris",
             "institution": "Journalism++",
+            "github":"",
+            "website": "http://www.pirhoo.com",
+            "email":"hello@pirhoo.com",
+            "publicgpgkey":"",
             "skills": [
                 "Lecturer",
                 "Data Journalist"
@@ -118,7 +158,12 @@
             "name": "Romera",
             "firstname": "Bellon",
             "country": "France",
+            "city": "Paris",
             "institution": "Journalism++",
+            "github":"",
+            "website": "",
+            "email":"bellon.pierre@gmail.com",
+            "publicgpgkey":"",
             "skills": [
                 "Developer"
             ],
