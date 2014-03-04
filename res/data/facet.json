@@ -3,23 +3,23 @@
     "children":
     [
         {
-            "type": "nominal",
+            "type": "alphabetical",
             "label": "country",
             "name": "country"
         },
         
         {
-            "type": "nominal",
+            "type": "alphabetical",
             "label": "institution",
             "name": "institution"
         },
         {
-            "type": "nominal",
+            "type": "nominal", 
             "label": "skills",
             "name": "skills"
         },
         {
-            "type": "nominal",
+            "type": "alphabetical",
             "label": "name",
             "name": "title"
         }

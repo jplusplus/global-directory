@@ -276,7 +276,7 @@ Pyk.newsDiscovery = function(){
     };
 
 
-    // The value we get for Auschuss is in a different
+    // The value we get for ... is in a different
     // format. This function makes it the same
     this._aaReduce = function(d){
         var a = [];
