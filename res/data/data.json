@@ -5,7 +5,7 @@
             "id": 1,
             "title": "Yordi Dam",
             "name": "Dam",
-            "vorname": "Yordi",
+            "firstname": "Yordi",
             "country": "The Netherlands",
             "institution": "LocalFocus",
             "skills": [
@@ -19,7 +19,7 @@
             "id": 2,
             "title": "Jelle Kamsma",
             "name": "Kamsma",
-            "vorname": "Jelle",
+            "firstname": "Jelle",
             "country": "The Netherlands",
             "institution": "LocalFocus",
             "skills": [
@@ -32,7 +32,7 @@
             "id": 3,
             "title": "Mirko Lorenz",
             "name": "Lorenz",
-            "vorname": "Mirko",
+            "firstname": "Mirko",
             "country": "Germany",
             "institution": "Journalism++ Cologne",
             "skills": [
@@ -46,7 +46,7 @@
             "id": 4,
             "title": "Cosmin Cabulea",
             "name": "Cosmin",
-            "vorname": "Cabulea",
+            "firstname": "Cabulea",
             "country": "Germany",
             "institution": "Journalism++ Cologne",
             "skills": [
@@ -60,7 +60,7 @@
             "id": 5,
             "title": "Nicolas Kayser-Bril",
             "name": "Kayser-Bril",
-            "vorname": "Nicolas",
+            "firstname": "Nicolas",
             "country": "Germany",
             "institution": "Journalism++",
             "skills": [
@@ -73,7 +73,7 @@
             "id": 6,
             "title": "Jens Finnäs",
             "name": "Finnäs",
-            "vorname": "Jens",
+            "firstname": "Jens",
             "country": "Sweden",
             "institution": "Journalism++ Stockholm",
             "skills": [
@@ -88,7 +88,7 @@
             "id": 7,
             "title": "Peter Gresund",
             "name": "Grensund",
-            "vorname": "Peter",
+            "firstname": "Peter",
             "country": "Sweden",
             "institution": "Journalism++ Stockholm",
             "skills": [
@@ -102,7 +102,7 @@
             "id": 8,
             "title": "Pierre Romera",
             "name": "Romera",
-            "vorname": "Pierre",
+            "firstname": "Pierre",
             "country": "France",
             "institution": "Journalism++",
             "skills": [
@@ -111,6 +111,19 @@
             ],
             "image_url": "res/img/pierre_romera.png",
             "url": "http://www.twitter.com/pirhoo"
+        },
+        {
+            "id": 9,
+            "title": "Pierre Bellon",
+            "name": "Romera",
+            "firstname": "Bellon",
+            "country": "France",
+            "institution": "Journalism++",
+            "skills": [
+                "Developer"
+            ],
+            "image_url": "res/img/pierre_bellon.png",
+            "url": "http://www.twitter.com/Toutenrab"
         }
         
         
