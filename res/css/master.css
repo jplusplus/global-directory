@@ -58,11 +58,13 @@ body, html{
     overflow      : hidden;
     background    : #fff;
     text-align    : center;
+    position: relative;
 }
 
 .pyk-news-discovery #grid li:hover {
     transition: all 0.25s ease;
     box-shadow: 0px 3px 0px #A6D151;
+    z-index:9;
 }
 
 .pyk-news-discovery #grid li a {
