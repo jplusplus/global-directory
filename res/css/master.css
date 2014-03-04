@@ -28,12 +28,15 @@ body, html{
     font-family      : 'Josefin Slab', serif;
     padding-top      : 12px;
     text-align       : right;
-    margin-top       : 80px;
 }
 
 .footer img {
-    width: 40px;
-    margin-right: 10px;
+    width        : 40px;
+    margin-right : 10px;
+}
+
+.pyk-news-discovery {
+    padding-bottom: 80px;
 }
 
 .pyk-news-discovery #grid{
