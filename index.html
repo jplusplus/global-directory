@@ -11,9 +11,6 @@
     <link href="res/css/master.css" rel="stylesheet" type="text/css">
     <link href="res/css/flip.css" rel="stylesheet" type="text/css">
 
-
-
-
   </head>
 
   <body>
@@ -59,52 +56,31 @@
           </div>
 
         </div>
-
-
-
         <div class="row">
-        
           <div class="col-sm-12">
-
             <div class="gridster">
-            <div class="click panel">
-              <div class="front"><ul id="grid" class="thumbnails"></ul></div>
-              <div class="back"><ul id="grid" class=""></ul></div>
+              <ul id="grid" class="thumbnails"></ul>
             </div>
-            
           </div>
         </div>
-        </div>
-		
-       
-
+      </div>
     </div>
-        <div class="footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <img src="res/img/jpp.png"/>
-                A Journalism++ project
-              </div>
-            </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="res/img/jpp.png"/>
+            A Journalism++ project
           </div>
         </div>
+      </div>
+    </div>
 
     <script src="res/lib/d3.js" type="text/javascript"></script>
     <script src="res/lib/jquery.js" type="text/javascript"></script>
     <script src="res/lib/bootstrap.js" type="text/javascript"></script>
     <script src="res/lib/crossfilter.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="res/js/pinky.js" type="text/javascript" charset="utf-8"></script>
-
-<script> $(document).ready(function(){
-    $('.hover').hover(function(){
-        $(this).addClass('flip');
-    },function(){
-        $(this).removeClass('flip');
-    });
-    
-    $('.click').click(function(){$(this).toggleClass('flip').find('.back');});
-});</script>
 
   </body>
 </html>

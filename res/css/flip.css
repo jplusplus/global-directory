@@ -1,20 +1,13 @@
 .panel {
     float: left;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
     position: relative;
-    font-size: .8em;
-    color:#fff;
    
     -webkit-perspective: 600px;
     -moz-perspective: 600px;
     perspective: 600px;
     text-align:center;
 }
-.panel>div{ 
-    background: #80868d;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.2); 
+.panel>div{
     float: none;
     position: absolute;
     top: 0;

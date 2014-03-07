@@ -67,17 +67,20 @@ body, html{
     z-index:9;
 }
 
-.pyk-news-discovery #grid li a {
+.pyk-news-discovery #grid li .front, .pyk-news-discovery #grid li .back{
     display: block;
     width: 137.5px;
     height: 180px;
     padding: 10px;
-    text-decoration: none;
     color: #000;
     font-weight: 400;
-    transition: all 0.3s ease;
+}
+
+.pyk-news-discovery #grid li a {
+    text-decoration: none;
     border-radius: 0;
     border: 0px;
+    transition: all 0.3s ease;
 }
 
 .pyk-news-discovery #grid li a:hover {

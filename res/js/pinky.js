@@ -162,20 +162,31 @@ Pyk.newsDiscovery = function(){
 
         // Grid at the bottom
         var grid_list = d3.select("#grid").selectAll("li").data(id_tags);
-        grid_list.enter().append("li");
-        grid_list
+        grid_list.enter()
+            .append("li")
             .html(function(d,i){
-                if(i<12) {
-                    var a = that._findArticleById(d.key);
-                    var link = "<a class='thumbnail' target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title + "</a>";
-                    return link;
-                } else {
-                    $(this).hide();
-                }
+                var a = that._findArticleById(d.key);
+                var container = $("<div/>").addClass("panel");
+                var front = $("<div/>").addClass("front");
+                var back  = $("<div/>").addClass("back");
+                front.html("<a class='thumbnail' target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title + "</a>");
+                var back_coutent = "";
+                back_coutent += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
+                back_coutent += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
+                back_coutent += $("<div/>").addClass("city").html(a.city).get(0).outerHTML;
+                back.html(back_coutent);
+                container.append(front);
+                container.append(back);
+                return container.get(0).outerHTML;
+            })
+            .on("mouseover", function(d){
+                $(this).find(".panel").addClass("flip");
+            })
+            .on("mouseout", function(d){
+                $(this).find(".panel").removeClass("flip");
             });
-        grid_list.exit().remove();
+            grid_list.exit().remove();
     };
-
 
     this.filter = function(d, e){
 
@@ -210,7 +221,6 @@ Pyk.newsDiscovery = function(){
                 return that.activeFilters["id"].indexOf(d) > -1;
             });
         }
-
 
         this.crossfilter.aa_dimension.filterAll();
         if(this.activeFilters["aa"].length > 0){
