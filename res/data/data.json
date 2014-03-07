@@ -18,7 +18,8 @@
                 "Designer"
             ],
             "image_url": "res/img/yordi_dam.png",
-            "url": "http://www.twitter.com/yordidam"
+            "url": "http://www.twitter.com/yordidam",
+            "twitter": "http://www.twitter.com/yordidam"
         },
         {
             "id": 2,
@@ -36,7 +37,8 @@
                 "Data Journalist"
             ],
             "image_url": "res/img/jelle_kamsma.png",
-            "url": "http://www.twitter.com/ddjelle"
+            "url": "http://www.twitter.com/ddjelle",
+            "twitter": "http://www.twitter.com/ddjelle"
         },
         {
             "id": 3,
@@ -55,7 +57,8 @@
                 "Data Journalist"
             ],
             "image_url": "res/img/mirko_lorenz.png",
-            "url": "http://www.twitter.com/mirkolorenz"
+            "url": "http://www.twitter.com/mirkolorenz",
+            "twitter": "http://www.twitter.com/mirkolorenz"
         },
         {
             "id": 4,
@@ -65,16 +68,17 @@
             "country": "Germany",
             "city": "Cologne",
             "institution": "Journalism++ Cologne",
-            "github":"",
+            "github":"http://www.github.com/pushthings4ward",
             "website": "http://cologne.jplusplus.org",
             "email":"cosmin@jplusplus.org",
-            "publicgpgkey":"",
+            "publicgpgkey":"BA890121",
             "skills": [
                 "Data Journalist",
                 "Lecturer"
             ],
             "image_url": "res/img/cosmin_cabulea.png",
-            "url": "http://www.twitter.com/pushthings4ward"
+            "url": "http://www.twitter.com/pushthings4ward",
+            "twitter": "http://www.twitter.com/pushthings4ward"
         },
         {
             "id": 5,
@@ -92,7 +96,8 @@
                 "Data Journalist"
             ],
             "image_url": "res/img/nicolas_kasyer_bril.png",
-            "url": "http://www.twitter.com/nicolaskb"
+            "url": "http://www.twitter.com/nicolaskb",
+            "twitter": "http://www.twitter.com/nicolaskb"
         },
         {
             "id": 6,
@@ -112,7 +117,8 @@
                 "Developer"
             ],
             "image_url": "res/img/jens_finnas.png",
-            "url": "http://www.twitter.com/jensfinnas"
+            "url": "http://www.twitter.com/jensfinnas",
+            "twitter": "http://www.twitter.com/jensfinnas"
         },
         {
             "id": 7,
@@ -131,7 +137,8 @@
                 "Journalist"
             ],
             "image_url": "res/img/peter_gresund.png",
-            "url": "http://www.twitter.com/grensund"
+            "url": "http://www.twitter.com/grensund",
+            "twitter": "http://www.twitter.com/grensund"
         },
         {
             "id": 8,
@@ -150,7 +157,8 @@
                 "Data Journalist"
             ],
             "image_url": "res/img/pierre_romera.png",
-            "url": "http://www.twitter.com/pirhoo"
+            "url": "http://www.twitter.com/pirhoo",
+            "twitter": "http://www.twitter.com/pirhoo"
         },
         {
             "id": 9,
@@ -168,7 +176,8 @@
                 "Developer"
             ],
             "image_url": "res/img/pierre_bellon.png",
-            "url": "http://www.twitter.com/Toutenrab"
+            "url": "http://www.twitter.com/Toutenrab",
+            "twitter": "http://www.twitter.com/Toutenrab"
         }
         
         

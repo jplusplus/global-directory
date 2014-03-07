@@ -171,9 +171,16 @@ Pyk.newsDiscovery = function(){
                 var back  = $("<div/>").addClass("back");
                 front.html("<a class='thumbnail' target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title + "</a>");
                 var back_content = "";
-                back_content += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
+                /*back_content += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;*/
                 back_content += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
-                back_content += $("<div/>").addClass("city").html(a.city).get(0).outerHTML;
+                back_content += $("<div/>").addClass("city").html(a.city + ", " + a.country).get(0).outerHTML;
+                back_content += $("<div/>").addClass("website").html("GPG: " + a.publicgpgkey).get(0).outerHTML;
+                back_content += $("<div/>").addClass("website").html("<br>" + '<a href="' + "mailto:" + a.email + '">' + "E-Mail" + "</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("website").html('<a href="' + a.website + '" target="_blank">'+ "Website" +"</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("website").html('<a href="' + a.twitter + '" target="_blank">'+ "Twitter" +"</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("website").html('<a href="' + a.github + '" target="_blank">'+ "GitHub" +"</a>").get(0).outerHTML;
+                
+                
                 back.html(back_content);
                 container.append(front);
                 container.append(back);
