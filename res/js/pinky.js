@@ -170,11 +170,11 @@ Pyk.newsDiscovery = function(){
                 var front = $("<div/>").addClass("front");
                 var back  = $("<div/>").addClass("back");
                 front.html("<a class='thumbnail' target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title + "</a>");
-                var back_coutent = "";
-                back_coutent += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
-                back_coutent += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
-                back_coutent += $("<div/>").addClass("city").html(a.city).get(0).outerHTML;
-                back.html(back_coutent);
+                var back_content = "";
+                back_content += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
+                back_content += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
+                back_content += $("<div/>").addClass("city").html(a.city).get(0).outerHTML;
+                back.html(back_content);
                 container.append(front);
                 container.append(back);
                 return container.get(0).outerHTML;
