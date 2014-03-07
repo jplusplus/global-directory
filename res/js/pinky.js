@@ -171,13 +171,14 @@ Pyk.newsDiscovery = function(){
                 var back  = $("<div/>").addClass("back");
                 front.html("<a class='thumbnail' target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title + "</a>");
                 var back_content = "";
+                back_content += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
                 back_content += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
                 back_content += $("<div/>").addClass("city").html(a.city + ", " + a.country).get(0).outerHTML;
                 back_content += $("<div/>").addClass("publicgpgkey").html("GPG: " + a.publicgpgkey).get(0).outerHTML;
-                back_content += $("<div/>").addClass("email").html("<br>" + '<a href="' + "mailto:" + a.email + '">' + '<i class="fa fa-envelope fa-2x"></i>' + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("twitter").html('<a href="' + a.twitter + '" target="_blank">' + '<i class="fa fa-twitter fa-2x"></i>' + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("website").html('<a href="' + a.website + '" target="_blank">' + '<i class="fa fa-globe fa-2x"></i>' + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("github").html('<a href="' + a.github + '" target="_blank">' + '<i class="fa fa-github fa-2x"></i>' + "</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("email").html("<br>" + '<a href="' + "mailto:" + a.email + '">' + '<i class="fa fa-envelope fa-lg"></i>' + "</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("twitter").html('<a href="' + a.twitter + '" target="_blank">' + '<i class="fa fa-twitter fa-lg"></i>' + "</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("website").html('<a href="' + a.website + '" target="_blank">' + '<i class="fa fa-globe fa-lg"></i>' + "</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("github").html('<a href="' + a.github + '" target="_blank">' + '<i class="fa fa-github fa-lg"></i>' + "</a>").get(0).outerHTML;
 
 
 
