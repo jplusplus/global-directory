@@ -49,9 +49,6 @@ Pyk.newsDiscovery = function(){
             return d.institution;
         });
 
-
-
-
         // --  -- //
         // We need 2 identical dimensions for the numbers to update
         // See http://git.io/_IvVUw for details
@@ -63,7 +60,6 @@ Pyk.newsDiscovery = function(){
         this.crossfilter.aar_dimension = this.crossfilter.data.dimension(function(d){
             return d.skills;
         });
-
 
         // Create empty filter roster
         this.activeFilters = {
@@ -161,6 +157,7 @@ Pyk.newsDiscovery = function(){
         id_list.exit().remove();
 
         // Grid at the bottom
+        d3.select("#grid").selectAll("li").remove();
         var grid_list = d3.select("#grid").selectAll("li").data(id_tags);
         grid_list.enter()
             .append("li")
@@ -180,8 +177,6 @@ Pyk.newsDiscovery = function(){
                 back_content += $("<div/>").addClass("website").html('<a href="' + a.website + '" target="_blank">' + '<i class="fa fa-globe fa-lg"></i>' + "</a>").get(0).outerHTML;
                 back_content += $("<div/>").addClass("github").html('<a href="' + a.github + '" target="_blank">' + '<i class="fa fa-github fa-lg"></i>' + "</a>").get(0).outerHTML;
 
-
-
                 back.html(back_content);
                 container.append(front);
                 container.append(back);
@@ -193,7 +188,7 @@ Pyk.newsDiscovery = function(){
             .on("mouseout", function(d){
                 $(this).find(".panel").removeClass("flip");
             });
-            grid_list.exit().remove();
+        grid_list.exit().remove();
     };
 
     this.filter = function(d, e){
@@ -260,7 +255,6 @@ Pyk.newsDiscovery = function(){
         return i > -1;
     };
 
-
     // TODO Optimize this function, use Array.filter/reduce
     // Or create a hashmap of ids and their index in the array on init
     this._findArticleById = function(id){
@@ -268,7 +262,6 @@ Pyk.newsDiscovery = function(){
         for(var i in articles) if(articles[i].id == id) return articles[i];
         return false;
     };
-
 
     // This function does two things:
     //  1. Removes keys if their values are 0
