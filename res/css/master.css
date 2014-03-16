@@ -15,17 +15,27 @@ body, html{
     z-index          : 2;
 }
 
-.title {
-    font-size   : 6em;
-    font-family : 'Josefin Slab', serif;
+/*.title {
+    font-size   : 4.5em;
+    font-family : 'Titillium Web', sans-serif;
+}*/
+
+.header_new {
+    height           : 50px;
+    background-color : #28211f;
+    color            : white;
+    font-size        : 2em;
+    font-family      : 'Titillium Web', sans-serif;
+    padding-top      : 8px;
+    text-align       : left;
 }
 
 .footer {
     height           : 60px;
-    background-color : #5C4E4E;
+    background-color : #28211f;
     color            : white;
     font-size        : 2em;
-    font-family      : 'Josefin Slab', serif;
+    font-family      : 'Titillium Web', sans-serif;
     padding-top      : 12px;
     text-align       : right;
 }
