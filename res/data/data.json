@@ -12,7 +12,7 @@
             "github":"",
             "website": "http://www.localfocus.nl",
             "email":"yordi@localfocus.nl",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Data Journalist", 
                 "Designer"
@@ -32,7 +32,7 @@
             "github":"",
             "website": "http://www.localfocus.nl",
             "email":"jelle@localfocus.nl",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Data Journalist"
             ],
@@ -51,7 +51,7 @@
             "github":"",
             "website": "http://cologne.jplusplus.org",
             "email":"mirko@jplusplus.org",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Lecturer",
                 "Data Journalist"
@@ -71,7 +71,7 @@
             "github":"http://www.github.com/pushthings4ward",
             "website": "http://cologne.jplusplus.org",
             "email":"cosmin@jplusplus.org",
-            "publicgpgkey":"BA890121",
+            "pgp":"BA890121",
             "skills": [
                 "Data Journalist",
                 "Lecturer"
@@ -91,7 +91,7 @@
             "github":"",
             "website": "http://www.nkb.fr",
             "email":"",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Data Journalist"
             ],
@@ -110,7 +110,7 @@
             "github":"",
             "website": "http://www.jensfinnas.com",
             "email":"jens.finnas@gmail.com",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Data Journalist",
                 "Journalist",
@@ -131,7 +131,7 @@
             "github":"",
             "website": "http://www.jplusplus.se",
             "email":"grensund@gmail.com",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Researcher",
                 "Journalist"
@@ -151,7 +151,7 @@
             "github":"",
             "website": "http://www.pirhoo.com",
             "email":"hello@pirhoo.com",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Lecturer",
                 "Data Journalist"
@@ -171,7 +171,7 @@
             "github":"",
             "website": "",
             "email":"bellon.pierre@gmail.com",
-            "publicgpgkey":"",
+            "pgp":"",
             "skills": [
                 "Developer"
             ],
