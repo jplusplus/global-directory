@@ -171,7 +171,7 @@ Pyk.newsDiscovery = function(){
                 back_content += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
                 back_content += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
                 back_content += $("<div/>").addClass("city").html(a.city + ", " + a.country).get(0).outerHTML;
-                back_content += $("<div/>").addClass("publicgpgkey").html("GPG: " + a.publicgpgkey).get(0).outerHTML;
+                back_content += $("<div/>").addClass("pgp").html("PGP: " + a.pgp).get(0).outerHTML;
                 back_content += $("<div/>").addClass("email").html("<br>" + '<a href="' + "mailto:" + a.email + '">' + '<i class="fa fa-envelope fa-lg"></i>' + "</a>").get(0).outerHTML;
                 back_content += $("<div/>").addClass("twitter").html('<a href="' + a.twitter + '" target="_blank">' + '<i class="fa fa-twitter fa-lg"></i>' + "</a>").get(0).outerHTML;
                 back_content += $("<div/>").addClass("website").html('<a href="' + a.website + '" target="_blank">' + '<i class="fa fa-globe fa-lg"></i>' + "</a>").get(0).outerHTML;
