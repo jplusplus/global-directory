@@ -30,6 +30,35 @@ body, html{
     text-align       : left;
 }
 
+.modal-title {
+    height           : 100%;
+    background-color : white;
+    color            : black;
+    font-size        : 0.8em;
+    font-family      : 'Titillium Web', sans-serif;
+    padding-left     : 6px;
+    text-align       : left;
+}
+
+
+.modal-body {
+    height           : 100%;
+    background-color : white;
+    color            : black;
+    font-size        : 0.6em;
+    font-family      : 'Titillium Web', sans-serif;
+    padding-top      : 8px;
+    text-align       : left;
+}
+
+.modal-footer {
+    height           : 30px;
+    background-color : white;
+    font-size        : 2em;
+    padding-top      : 4px;
+    text-align       : right;
+}
+
 .footer {
     height           : 60px;
     background-color : #28211f;
