@@ -61,6 +61,26 @@
             "twitter": "http://www.twitter.com/mirkolorenz"
         },
         {
+            "id": 4,
+            "title": "Cosmin Cabulea",
+            "name": "Cosmin",
+            "firstname": "Cabulea",
+            "country": "Germany",
+            "city": "Cologne",
+            "institution": "Journalism++ Cologne",
+            "github":"http://www.github.com/pushthings4ward",
+            "website": "http://cologne.jplusplus.org",
+            "email":"cosmin@jplusplus.org",
+            "pgp":"BA890121",
+            "skills": [
+                "Data Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/cosmin_cabulea.png",
+            "url": "http://www.twitter.com/pushthings4ward",
+            "twitter": "http://www.twitter.com/pushthings4ward"
+        },
+        {
             "id": 5,
             "title": "Nicolas Kayser-Bril",
             "name": "Kayser-Bril",
