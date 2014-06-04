@@ -13,6 +13,7 @@
             "website": "http://www.localfocus.nl",
             "email":"yordi@localfocus.nl",
             "pgp":"",
+            "pgp_url":"",
             "skills": [
                 "Data Journalist", 
                 "Designer"
@@ -33,6 +34,7 @@
             "website": "http://www.localfocus.nl",
             "email":"jelle@localfocus.nl",
             "pgp":"",
+            "pgp_url":"",
             "skills": [
                 "Data Journalist"
             ],
@@ -52,6 +54,7 @@
             "website": "http://cologne.jplusplus.org",
             "email":"mirko@jplusplus.org",
             "pgp":"",
+            "pgp_url":"",
             "skills": [
                 "Lecturer",
                 "Data Journalist"
@@ -72,6 +75,7 @@
             "website": "http://cologne.jplusplus.org",
             "email":"cosmin@jplusplus.org",
             "pgp":"BA890121",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?search=cosmin+cabulea&op=vindex",
             "skills": [
                 "Data Journalist",
                 "Lecturer"
@@ -92,6 +96,7 @@
             "website": "http://www.nkb.fr",
             "email":"nkb@jplusplus.org",
             "pgp":"2D40B8C5",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?search=nicolas+kayser-bril&op=vindex",
             "skills": [
                 "Data Journalist"
             ],
@@ -111,6 +116,7 @@
             "website": "http://www.jensfinnas.com",
             "email":"jens.finnas@gmail.com",
             "pgp":"",
+            "pgp_url":"",
             "skills": [
                 "Data Journalist",
                 "Journalist",
@@ -132,6 +138,7 @@
             "website": "http://www.jplusplus.se",
             "email":"grensund@gmail.com",
             "pgp":"",
+            "pgp_url":"",
             "skills": [
                 "Researcher",
                 "Journalist"
@@ -152,6 +159,7 @@
             "website": "http://www.pirhoo.com",
             "email":"hello@pirhoo.com",
             "pgp":"",
+            "pgp_url":"",
             "skills": [
                 "Lecturer",
                 "Data Journalist"
@@ -172,12 +180,33 @@
             "website": "",
             "email":"bellon.pierre@gmail.com",
             "pgp":"",
+            "pgp_url":"",
             "skills": [
                 "Developer"
             ],
             "image_url": "res/img/pierre_bellon.png",
             "url": "http://www.twitter.com/Toutenrab",
             "twitter": "http://www.twitter.com/Toutenrab"
+        },
+        {
+            "id": 10,
+            "title": "Sebastian Kraus",
+            "name": "Kraus",
+            "firstname": "Sebastian",
+            "country": "Germany",
+            "city": "Berlin",
+            "institution": "Journalism++",
+            "github":"https://github.com/smkraus",
+            "website": "http://www.jplusplus.org",
+            "email":"smk@jplusplus.org",
+            "pgp":"2DE41F15",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=vindex&search=0x37E7B9FF2DE41F15",
+            "skills": [
+                "Data Scientist"
+            ],
+            "image_url": "res/img/sebastian_kraus.png",
+            "url": "http://twitter.com/sm_kraus",
+            "twitter": "http://twitter.com/sm_kraus"
         }
         
         
