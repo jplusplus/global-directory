@@ -96,7 +96,7 @@
             "website": "http://www.nkb.fr",
             "email":"nkb@jplusplus.org",
             "pgp":"2D40B8C5",
-            "pgp_url":"http://pgp.mit.edu/pks/lookup?search=nicolas+kayser-bril&op=vindex",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x6BE23E2E2D40B8C5",
             "skills": [
                 "Data Journalist"
             ],
