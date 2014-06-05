@@ -200,7 +200,7 @@
             "website": "http://www.jplusplus.org",
             "email":"smk@jplusplus.org",
             "pgp":"2DE41F15",
-            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=vindex&search=0x37E7B9FF2DE41F15",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x37E7B9FF2DE41F15",
             "skills": [
                 "Data Scientist"
             ],
