@@ -87,7 +87,7 @@
             "email":"YES",
             "email_url":"cosmin@jplusplus.org",
             "pgp":"BA890121",
-            "pgp_url":"http://pgp.mit.edu/pks/lookup?search=cosmin+cabulea&op=vindex",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x6D4FCF94BA890121",
             "skills": [
                 "Data Journalist",
                 "Lecturer"
