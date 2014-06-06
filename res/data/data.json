@@ -656,6 +656,128 @@
             "image_url": "res/img/mona_chalabi.png",
             "twitter_url": "http://twitter.com/MonaChalabi",
             "twitter": "YES"
+        },
+        {
+            "id": 28,
+            "title": "Julian Schmidli",
+            "name": "Schmidli",
+            "firstname": "Julian",
+            "country": "Switzerland",
+            "city": "Zurich",
+            "institution": "Tages-Anzeiger / SonntagsZeitung",
+            "github":"YES",
+            "github_url":"http://github.com/datajules",
+            "website": "YES",
+            "website_url": "http://www.julianschmidli.com",
+            "email":"YES",
+            "email_url":"julian@julianschmidli.com",
+            "pgp":"Key ID",
+            "pgp_url":"http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xDCD4AF473C4B1879",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/julian_schmidli.png",
+            "twitter_url": "http://www.twitter.com/julianschmidli",
+            "twitter": "YES"
+        },
+        {
+            "id": 29,
+            "title": "Sabino Metta",
+            "name": "Metta",
+            "firstname": "Sabino",
+            "country": "Italy",
+            "city": "N/A",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"sabino.metta@rai.it",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Researcher"
+            ],
+            "image_url": "res/img/sabino_metta.png",
+            "twitter_url": "",
+            "twitter": "N/A"
+        },
+        {
+            "id": 30,
+            "title": "Pinar Dag",
+            "name": "Dag",
+            "firstname": "Pinar",
+            "country": "Turkey",
+            "city": "İstanbul",
+            "institution": "Dag Medya",
+            "github":"YES",
+            "github_url":"http://www.github.com/pinardag",
+            "website": "YES",
+            "website_url": "http://www.dagmedya.net",
+            "email":"YES",
+            "email_url":"dagmedya@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Researcher",
+                "Data Journalist",
+                "Lecturer",
+                "Journalist"
+            ],
+            "image_url": "res/img/pinar_dag.png",
+            "twitter_url": "http://www.twitter.com/pinardag",
+            "twitter": "YES"
+        },
+        {
+            "id": 31,
+            "title": "Youyou Zhou",
+            "name": "Zhou",
+            "firstname": "Youyou",
+            "country": "China",
+            "city": "Shanghai",
+            "institution": "Graphicacy",
+            "github":"YES",
+            "github_url":"http://www.github.com/zhoyoyo",
+            "website": "YES",
+            "website_url": "http://www.youyou-zhou.com",
+            "email":"YES",
+            "email_url":"zhoyoyo@hotmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Designer",
+                "Journalist"
+            ],
+            "image_url": "res/img/youyou_zhou.png",
+            "twitter_url": "http://www.twitter.com/zhoyoyo",
+            "twitter": "YES"
+        },
+        {
+            "id": 32,
+            "title": "Philippe Couve",
+            "name": "Couve",
+            "firstname": "Philippe",
+            "country": "France",
+            "city": "Paris",
+            "institution": "Samsa",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.samsa.fr",
+            "email":"YES",
+            "email_url":"philippe@samsa.fr",
+            "pgp":"Key ID",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x64E4528CE3178710",
+            "skills": [
+                "Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/philippe_couve.png",
+            "twitter_url": "https://twitter.com/couve",
+            "twitter": "YES"
         }
         
         
