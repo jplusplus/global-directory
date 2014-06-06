@@ -172,10 +172,12 @@ Pyk.newsDiscovery = function(){
                 back_content += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
                 back_content += $("<div/>").addClass("city").html(a.city + ", " + a.country).get(0).outerHTML;
                 back_content += $("<div/>").addClass("pgp").html("PGP: " + '<a href="' + a.pgp_url + '" target="_self">' + a.pgp + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("email").html("<br>" + '<a href="' + "mailto:" + a.email + '">' + '<i class="fa fa-envelope fa-lg"></i>' + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("twitter").html('<a href="' + a.twitter + '" target="_blank">' + '<i class="fa fa-twitter fa-lg"></i>' + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("website").html('<a href="' + a.website + '" target="_blank">' + '<i class="fa fa-globe fa-lg"></i>' + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("github").html('<a href="' + a.github + '" target="_blank">' + '<i class="fa fa-github fa-lg"></i>' + "</a>").get(0).outerHTML;
+
+                back_content += $("<div/>").addClass("email").html("<br>" + '<i class="fa fa-envelope fa-lg"></i> ' + '<a href="' + "mailto:" + a.email_url + '">'  + a.email + "</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("twitter").html('<i class="fa fa-twitter fa-lg"></i> ' + '<a href="' + a.twitter_url + '" target="_blank">' + a.twitter + "</a>").get(0).outerHTML;    
+                back_content += $("<div/>").addClass("github").html('<i class="fa fa-github fa-lg"></i> ' + '<a href="' + a.github_url + '" target="_blank">' + a.github + "</a>").get(0).outerHTML;
+                back_content += $("<div/>").addClass("website").html('<i class="fa fa-globe fa-lg"></i> ' + '<a href="' + a.website_url + '" target="_blank">' + a.website + "</a>").get(0).outerHTML;    
+
 
                 back.html(back_content);
                 container.append(front);

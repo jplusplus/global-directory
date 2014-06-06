@@ -9,9 +9,12 @@
             "country": "The Netherlands",
             "city": "Amsterdam",
             "institution": "LocalFocus",
-            "github":"",
-            "website": "http://www.localfocus.nl",
-            "email":"yordi@localfocus.nl",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.localfocus.nl",
+            "email":"YES",
+            "email_url":"yordi@localfocus.nl",
             "pgp":"",
             "pgp_url":"",
             "skills": [
@@ -19,8 +22,8 @@
                 "Designer"
             ],
             "image_url": "res/img/yordi_dam.png",
-            "url": "http://www.twitter.com/yordidam",
-            "twitter": "http://www.twitter.com/yordidam"
+            "twitter_url": "http://www.twitter.com/yordidam",
+            "twitter": "YES"
         },
         {
             "id": 2,
@@ -30,17 +33,20 @@
             "country": "The Netherlands",
             "city": "Amsterdam",
             "institution": "LocalFocus",
-            "github":"",
-            "website": "http://www.localfocus.nl",
-            "email":"jelle@localfocus.nl",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.localfocus.nl",
+            "email":"YES",
+            "email_url":"jelle@localfocus.nl",
             "pgp":"",
             "pgp_url":"",
             "skills": [
                 "Data Journalist"
             ],
             "image_url": "res/img/jelle_kamsma.png",
-            "url": "http://www.twitter.com/ddjelle",
-            "twitter": "http://www.twitter.com/ddjelle"
+            "twitter_url": "http://www.twitter.com/ddjelle",
+            "twitter": "YES"
         },
         {
             "id": 3,
@@ -50,9 +56,12 @@
             "country": "Germany",
             "city": "Cologne",
             "institution": "Journalism++ Cologne",
-            "github":"",
-            "website": "http://cologne.jplusplus.org",
-            "email":"mirko@jplusplus.org",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://cologne.jplusplus.org",
+            "email":"YES",
+            "email_url":"mirko@jplusplus.org",
             "pgp":"",
             "pgp_url":"",
             "skills": [
@@ -60,8 +69,8 @@
                 "Data Journalist"
             ],
             "image_url": "res/img/mirko_lorenz.png",
-            "url": "http://www.twitter.com/mirkolorenz",
-            "twitter": "http://www.twitter.com/mirkolorenz"
+            "twitter_url": "http://www.twitter.com/mirkolorenz",
+            "twitter": "YES"
         },
         {
             "id": 4,
@@ -71,9 +80,12 @@
             "country": "Germany",
             "city": "Cologne",
             "institution": "Journalism++ Cologne",
-            "github":"http://www.github.com/pushthings4ward",
-            "website": "http://cologne.jplusplus.org",
-            "email":"cosmin@jplusplus.org",
+            "github":"YES",
+            "github_url":"http://www.github.com/pushthings4ward",
+            "website": "YES",
+            "website_url": "http://cologne.jplusplus.org",
+            "email":"YES",
+            "email_url":"cosmin@jplusplus.org",
             "pgp":"BA890121",
             "pgp_url":"http://pgp.mit.edu/pks/lookup?search=cosmin+cabulea&op=vindex",
             "skills": [
@@ -81,8 +93,8 @@
                 "Lecturer"
             ],
             "image_url": "res/img/cosmin_cabulea.png",
-            "url": "http://www.twitter.com/pushthings4ward",
-            "twitter": "http://www.twitter.com/pushthings4ward"
+            "twitter_url": "http://www.twitter.com/pushthings4ward",
+            "twitter": "YES"
         },
         {
             "id": 5,
@@ -92,17 +104,20 @@
             "country": "Germany",
             "city": "Berlin",
             "institution": "Journalism++",
-            "github":"",
-            "website": "http://www.nkb.fr",
-            "email":"nkb@jplusplus.org",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.nkb.fr",
+            "email":"YES",
+            "email_url":"nkb@jplusplus.org",
             "pgp":"2D40B8C5",
             "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x6BE23E2E2D40B8C5",
             "skills": [
                 "Data Journalist"
             ],
             "image_url": "res/img/nicolas_kasyer_bril.png",
-            "url": "http://www.twitter.com/nicolaskb",
-            "twitter": "http://www.twitter.com/nicolaskb"
+            "twitter_url": "http://www.twitter.com/nicolaskb",
+            "twitter": "YES"
         },
         {
             "id": 6,
@@ -112,9 +127,12 @@
             "country": "Sweden",
             "city": "Stockholm",
             "institution": "Journalism++ Stockholm",
-            "github":"",
-            "website": "http://www.jensfinnas.com",
-            "email":"jens.finnas@gmail.com",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.jensfinnas.com",
+            "email":"YES",
+            "email_url":"jens.finnas@gmail.com",
             "pgp":"",
             "pgp_url":"",
             "skills": [
@@ -123,8 +141,8 @@
                 "Developer"
             ],
             "image_url": "res/img/jens_finnas.png",
-            "url": "http://www.twitter.com/jensfinnas",
-            "twitter": "http://www.twitter.com/jensfinnas"
+            "twitter_url": "http://www.twitter.com/jensfinnas",
+            "twitter": "YES"
         },
         {
             "id": 7,
@@ -134,9 +152,12 @@
             "country": "Sweden",
             "city": "Stockholm",
             "institution": "Journalism++ Stockholm",
-            "github":"",
-            "website": "http://www.jplusplus.se",
-            "email":"grensund@gmail.com",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.jplusplus.se",
+            "email":"YES",
+            "email_url":"grensund@gmail.com",
             "pgp":"",
             "pgp_url":"",
             "skills": [
@@ -144,8 +165,8 @@
                 "Journalist"
             ],
             "image_url": "res/img/peter_gresund.png",
-            "url": "http://www.twitter.com/grensund",
-            "twitter": "http://www.twitter.com/grensund"
+            "twitter_url": "http://www.twitter.com/grensund",
+            "twitter": "YES"
         },
         {
             "id": 8,
@@ -155,9 +176,12 @@
             "country": "France",
             "city": "Paris",
             "institution": "Journalism++",
-            "github":"",
-            "website": "http://www.pirhoo.com",
-            "email":"hello@pirhoo.com",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.pirhoo.com",
+            "email":"YES",
+            "email_url":"hello@pirhoo.com",
             "pgp":"",
             "pgp_url":"",
             "skills": [
@@ -165,8 +189,8 @@
                 "Data Journalist"
             ],
             "image_url": "res/img/pierre_romera.png",
-            "url": "http://www.twitter.com/pirhoo",
-            "twitter": "http://www.twitter.com/pirhoo"
+            "twitter_url": "http://www.twitter.com/pirhoo",
+            "twitter": "YES"
         },
         {
             "id": 9,
@@ -176,17 +200,20 @@
             "country": "France",
             "city": "Paris",
             "institution": "Journalism++",
-            "github":"",
-            "website": "",
-            "email":"bellon.pierre@gmail.com",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"bellon.pierre@gmail.com",
             "pgp":"",
             "pgp_url":"",
             "skills": [
                 "Developer"
             ],
             "image_url": "res/img/pierre_bellon.png",
-            "url": "http://www.twitter.com/Toutenrab",
-            "twitter": "http://www.twitter.com/Toutenrab"
+            "twitter_url": "http://www.twitter.com/Toutenrab",
+            "twitter": "YES"
         },
         {
             "id": 10,
@@ -196,17 +223,364 @@
             "country": "Germany",
             "city": "Berlin",
             "institution": "Journalism++",
-            "github":"https://github.com/smkraus",
-            "website": "http://www.jplusplus.org",
-            "email":"smk@jplusplus.org",
+            "github":"YES",
+            "github_url":"http://www.github.com/smkraus",
+            "website": "YES",
+            "website_url": "http://www.jplusplus.org",
+            "email":"YES",
+            "email_url":"smk@jplusplus.org",
             "pgp":"2DE41F15",
             "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x37E7B9FF2DE41F15",
             "skills": [
                 "Data Scientist"
             ],
             "image_url": "res/img/sebastian_kraus.png",
-            "url": "http://twitter.com/sm_kraus",
-            "twitter": "http://twitter.com/sm_kraus"
+            "twitter_url": "http://www.twitter.com/sm_kraus",
+            "twitter": "YES"
+        },
+        {
+            "id": 11,
+            "title": "Paul Joannon",
+            "name": "Joannon",
+            "firstname": "Paul",
+            "country": "France",
+            "city": "Paris",
+            "institution": "Journalism++",
+            "github":"YES",
+            "github_url":"http://www.github.com/paulloz",
+            "website": "YES",
+            "website_url": "http://www.pauljoannon.com",
+            "email":"YES",
+            "email_url":"paul.joannon@gmail.com",
+            "pgp":"00BFA6CF",
+            "pgp_url":"https://hkps.pool.sks-keyservers.net/pks/lookup?op=get&fingerprint=on&search=0x139A3DB800BFA6CF",
+            "skills": [
+                "Developer",
+                "Pony Rider"
+            ],
+            "image_url": "res/img/paul_joannon.png",
+            "twitter_url": "http://www.twitter.com/pauljoannon",
+            "twitter": "YES"
+        },
+        {
+            "id": 12,
+            "title": "Alexandre Léchenet",
+            "name": "Léchenet",
+            "firstname": "Alexandre",
+            "country": "France",
+            "city": "N/A",
+            "institution": "Le Monde",
+            "github":"YES",
+            "github_url":"http://www.github.com/alphoenix",
+            "website": "YES",
+            "website_url": "http://www.alphoenix.net",
+            "email":"YES",
+            "email_url":"lechenet@lemonde.fr",
+            "pgp":"Key ID",
+            "pgp_url":"http://lemde.fr/pgp-alphoenix ",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/alexandre_lechenet.png",
+            "twitter_url": "http://www.twitter.com/alphoenix",
+            "twitter": "YES"
+        },
+        {
+            "id": 13,
+            "title": "Timo Grossenbacher",
+            "name": "Grossenbacher",
+            "firstname": "Timo",
+            "country": "Switzerland",
+            "city": "Ztwitter_urlich",
+            "institution": "Tages-Anzeiger",
+            "github":"YES",
+            "github_url":"http://www.github.com/wnstnsmth",
+            "website": "YES",
+            "website_url": "http://www.timogrossenbacher.ch",
+            "email":"YES",
+            "email_url":"timo@timogrossenbacher.ch",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Designer",
+                "Developer",
+                "Data Scientist"
+            ],
+            "image_url": "res/img/timo_grossenbacher.png",
+            "twitter_url": "http://www.twitter.com/wnstns",
+            "twitter": "YES"
+        },
+        {
+            "id": 14,
+            "title": "Karsten Hufer",
+            "name": "Hufer",
+            "firstname": "Karsten",
+            "country": "Germany",
+            "city": "Frankftwitter_urlt",
+            "institution": "Hessischer Rundfunk",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"karsten.hufer@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/karsten_hufer.png",
+            "twitter_url": "http://www.twitter.com/karstenhufer",
+            "twitter": "YES"
+        },
+        {
+            "id": 15,
+            "title": "Mehdi Guiraud",
+            "name": "Guiraud",
+            "firstname": "Mehdi",
+            "country": "France",
+            "city": "Paris",
+            "institution": "N/A",
+            "github":"YES",
+            "github_url":"http://www.github.com/mguiraud",
+            "website": "YES",
+            "website_url": "http://www.mehdiguiraud.info",
+            "email":"YES",
+            "email_url":"me@mehdiguiraud.info",
+            "pgp":"812EA402",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x90D17986812EA402",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Developer"
+            ],
+            "image_url": "res/img/mehdi_guiraud.png",
+            "twitter_url": "http://www.twitter.com/mguiraud",
+            "twitter": "YES"
+        },
+        {
+            "id": 16,
+            "title": "Markus Mandalka",
+            "name": "Mandalka",
+            "firstname": "Markus",
+            "country": "Germany",
+            "city": "Berlin",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.mandalka.name",
+            "email":"YES",
+            "email_url":"markus@mandalka.name",
+            "pgp":"Key ID",
+            "pgp_url":"http://www.mandalka.name/markus_mandalka.asc",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Developer",
+                "Researcher",
+                "Lecturer"
+            ],
+            "image_url": "res/img/markus_mandalka.png",
+            "twitter_url": "http://www.twitter.com/M_Mandalka",
+            "twitter": "YES"
+        },
+        {
+            "id": 17,
+            "title": "Frederic Sallet",
+            "name": "Sallet",
+            "firstname": "Frederic",
+            "country": "France",
+            "city": "Bordeaux",
+            "institution": "Journal Sud Ouest",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.sudouest.fr",
+            "email":"YES",
+            "email_url":"f.sallet@sudouest.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/frederic_sallet.png",
+            "twitter_url": "http://www.twitter.com/Fred_Sudouest",
+            "twitter": "YES"
+        },
+        {
+            "id": 18,
+            "title": "Erik Willems",
+            "name": "Willems",
+            "firstname": "Erik",
+            "country": "Netherlands",
+            "city": "Amsterdam",
+            "institution": "LocalFocus",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.localfocus.nl",
+            "email":"YES",
+            "email_url":"erik@localfocus.nl",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Developer",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/erik_willems.png",
+            "twitter_url": "http://www.twitter.com/ehwillems",
+            "twitter": "YES"
+        },
+        {
+            "id": 19,
+            "title": "Julien Le Bot",
+            "name": "Le Bot",
+            "firstname": "Julien",
+            "country": "France",
+            "city": "Paris",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.yakwala.fr",
+            "email":"YES",
+            "email_url":"jlebot.info@gmail.com",
+            "pgp":"4360B65C",
+            "pgp_url":"https://hkps.pool.sks-keyservers.net/pks/lookup?op=get&search=0x6FE990954360B65C",
+            "skills": [
+                "Journalist"
+            ],
+            "image_url": "res/img/julien_lebot.png",
+            "twitter_url": "http://www.twitter.com/julienlebot",
+            "twitter": "YES"
+        },
+        {
+            "id": 20,
+            "title": "Flip Schultz",
+            "name": "Schultz",
+            "firstname": "Flip",
+            "country": "The Netherlands",
+            "city": "Utrecht",
+            "institution": "Dutch Network Group B.V.",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.dezaak.nl",
+            "email":"YES",
+            "email_url":"schultz@dezaak.nl",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist"
+            ],
+            "image_url": "res/img/flip_schultz.png",
+            "twitter_url": "http://www.twitter.com/FS_DZ",
+            "twitter": "YES"
+        },
+        {
+            "id": 21,
+            "title": "Raphaël da Silva",
+            "name": "da Silva",
+            "firstname": "Raphaël",
+            "country": "France",
+            "city": "Strasbourg",
+            "institution": "Rue89Strasbourg",
+            "github":"YES",
+            "github_url":"https://github.com/raphadasilva",
+            "website": "YES",
+            "website_url": "http://blog.m0le.net/category/informatique/data",
+            "email":"YES",
+            "email_url":"raphipons@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Freelancer"
+            ],
+            "image_url": "res/img/raphael_dasilva.png",
+            "twitter_url": "http://www.twitter.com/Raphipons",
+            "twitter": "YES"
+        },
+        {
+            "id": 22,
+            "title": "Steve Doig",
+            "name": "Doig",
+            "firstname": "Steve",
+            "country": "USA",
+            "city": "Phoenix, Arizona",
+            "institution": "Arizona State University",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://cronkite.asu.edu/faculty/doigbio.php",
+            "email":"YES",
+            "email_url":"steve.doig@asu.edu",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Lecturer",
+                "Statistician"
+            ],
+            "image_url": "res/img/steve_doig.png",
+            "twitter_url": "http://www.twitter.com/sdoig",
+            "twitter": "YES"
+        },
+        {
+            "id": 23,
+            "title": "Marcelo Soares",
+            "name": "Soares",
+            "firstname": "Marcelo",
+            "country": "Brazil",
+            "city": "São Paulo",
+            "institution": "Folha",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"marcelo.soares@grupofolha.com.br",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Lecturer",
+                "Researcher"
+            ],
+            "image_url": "res/img/marcelo_soares.png",
+            "twitter_url": "https://www.twitter.com/msoares",
+            "twitter": "YES"
+        },
+        {
+            "id": 24,
+            "title": "Steffen Kühne",
+            "name": "Kühne",
+            "firstname": "Steffen",
+            "country": "Germany",
+            "city": "Munich",
+            "institution": "",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.datenkritik.de",
+            "email":"YES",
+            "email_url":"stekhn@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Designer",
+                "Developer"
+            ],
+            "image_url": "res/img/steffen_kuehne.png",
+            "twitter_url": "http://www.twitter.com/stekhn",
+            "twitter": "YES"
         }
         
         
