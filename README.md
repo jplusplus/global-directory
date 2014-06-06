@@ -3,7 +3,7 @@ Directory
 
 February 2014
 
-http://jplusplus.github.io/directory
+http://jplusplus.github.io/global-directory
 
 ## The project
 
