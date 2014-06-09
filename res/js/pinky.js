@@ -166,7 +166,7 @@ Pyk.newsDiscovery = function(){
                 var container = $("<div/>").addClass("panel");
                 var front = $("<div/>").addClass("front");
                 var back  = $("<div/>").addClass("back");
-                front.html("<a class='thumbnail' target='_blank' href='" + a.url + "'><img src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title);
+                front.html("<img class='thumbnail' src='"+a.image_url+"' width='117' height='130' /><br/>" + a.title);
                 var back_content = "";
                 back_content += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
                 back_content += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
