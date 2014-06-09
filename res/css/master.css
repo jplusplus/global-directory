@@ -195,3 +195,15 @@ body, html{
     color: #999;
     float: right;
 }
+
+.thumbnail {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 9px;
+    display: block;
+    height: auto;
+    line-height: 1.42857;
+    max-width: 100%;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+}
