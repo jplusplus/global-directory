@@ -106,13 +106,25 @@ body, html{
     z-index:9;
 }
 
-.pyk-news-discovery #grid li .front, .pyk-news-discovery #grid li .back{
+.pyk-news-discovery #grid li .front{
     display: block;
     width: 137.5px;
     height: 180px;
     padding: 10px;
     color: #000;
     font-weight: 400;
+    font-size: 9.5px;
+}
+
+.pyk-news-discovery #grid li .back{
+    display: block;
+    width: 137.5px;
+    height: 180px;
+    padding: 10px;
+    color: #000;
+    font-weight: 400;
+    font-size: 10.5px;
+    
 }
 
 .pyk-news-discovery #grid li a {
@@ -198,12 +210,12 @@ body, html{
 
 .thumbnail {
     background-color: #FFFFFF;
-    border: 1px solid #DDDDDD;
-    border-radius: 9px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
     display: block;
     height: auto;
     line-height: 1.42857;
     max-width: 100%;
-    padding: 4px;
+    padding: 2px;
     transition: all 0.2s ease-in-out 0s;
 }

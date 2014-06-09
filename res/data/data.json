@@ -1524,6 +1524,81 @@
             "image_url": "res/img/jesus_escudero.png",
             "twitter_url": "http://www.twitter.com/jescuderoma",
             "twitter": "YES"
+        },
+        {
+            "id": 63,
+            "title": "Sara Moreira",
+            "name": "Moreira",
+            "firstname": "Sara",
+            "country": "Portugal",
+            "city": "Porto",
+            "institution": "Journalism++ Porto",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://porto.jplusplus.org",
+            "email":"YES",
+            "email_url":"saritamoreira@gmail.com",
+            "pgp":"Key ID",
+            "pgp_url":"https://hkps.pool.sks-keyservers.net/pks/lookup?op=get&fingerprint=on&search=0x4B51C86E6023D406",
+            "skills": [
+                "Researcher",
+                "Editor"
+            ],
+            "image_url": "res/img/sara_moreira.png",
+            "twitter_url": "http://www.twitter.com/saritamoreira",
+            "twitter": "YES"
+        },
+        {
+            "id": 64,
+            "title": "Guido Romeo",
+            "name": "Romeo",
+            "firstname": "Guido",
+            "country": "Italy",
+            "city": "Milan",
+            "institution": "WIRED (Italy)",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.guidoromeo.com",
+            "email":"YES",
+            "email_url":"guido.romeo@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/guido_romeo.png",
+            "twitter_url": "http://www.twitter.com/guidoromeo",
+            "twitter": "YES"
+        },
+        {
+            "id": 65,
+            "title": "Ricardo Matheus",
+            "name": "Matheus",
+            "firstname": "Ricardo",
+            "country": "Brazil",
+            "city": "Rio de Janeiro",
+            "institution": "Rio de Janeiro City Hall",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "https://sites.google.com/site/ricardomatheus/",
+            "email":"YES",
+            "email_url":"ricardomatheus.pcrj@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Researcher",
+                "Data Journalist",
+                "Data Scientist",
+                "Lecturer",
+                "GIS"
+            ],
+            "image_url": "res/img/ricardo_matheus.png",
+            "twitter_url": "http://www.twitter.com/ricardomatheus",
+            "twitter": "YES"
         }
         
         
