@@ -17,3 +17,7 @@ A global data journalists directory. The project addresses two goals:
 ```
 $ make run
 ```
+
+## License
+
+CC BY-SA 4.0
