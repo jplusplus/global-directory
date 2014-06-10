@@ -1599,6 +1599,56 @@
             "image_url": "res/img/ricardo_matheus.png",
             "twitter_url": "http://www.twitter.com/ricardomatheus",
             "twitter": "YES"
+        },
+        {
+            "id": 66,
+            "title": "Marcus Schwarze",
+            "name": "Schwarze",
+            "firstname": "Marcus",
+            "country": "Germany",
+            "city": "Koblenz",
+            "institution": "Rhein-Zeitung",
+            "github":"YES",
+            "github_url":"http://www.github.com/homofaber17",
+            "website": "YES",
+            "website_url": "http://msc.rhein-zeitung.de",
+            "email":"YES",
+            "email_url":"marcus@schwarze.info",
+            "pgp":"Key ID",
+            "pgp_url":"https://sks.spodhuis.org/pks/lookup?op=index&fingerprint=on&search=0xF98E1F5E5B616B97",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Lecturer",
+                "Editor"
+            ],
+            "image_url": "res/img/marcus_schwarze.png",
+            "twitter_url": "http://www.twitter.com/marcusschwarze",
+            "twitter": "YES"
+        },
+        {
+            "id": 67,
+            "title": "Daniele Grasso",
+            "name": "Grasso",
+            "firstname": "Daniele",
+            "country": "Spain",
+            "city": "Madrid",
+            "institution": "El Confidencial",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.cortadoamaro.com",
+            "email":"YES",
+            "email_url":"d.grasso@ymail.com",
+            "pgp":"Key ID",
+            "pgp_url":"https://dl.dropboxusercontent.com/u/13234383/DGrasso_pgp.txt",
+            "skills": [
+                "Journalist",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/daniele_grasso.png",
+            "twitter_url": "http://www.twitter.com/danielegrasso",
+            "twitter": "YES"
         }
         
         
