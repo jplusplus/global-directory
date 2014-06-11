@@ -1827,6 +1827,76 @@
             "image_url": "res/img/john_swain.png",
             "twitter_url": "http://www.twitter.com/swainjo",
             "twitter": "YES"
+        },
+        {
+            "id": 75,
+            "title": "Sidclei Sobral",
+            "name": "Sobral",
+            "firstname": "Sidclei",
+            "country": "Brazil",
+            "city": "Sao Paulo",
+            "institution": "Editora Abril",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"sidclei@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Designer"
+            ],
+            "image_url": "res/img/sidclei_sobral.png",
+            "twitter_url": "http://www.twitter.com/sidclei",
+            "twitter": "YES"
+        },
+        {
+            "id": 76,
+            "title": "Jerry Vermanen",
+            "name": "Vermanen",
+            "firstname": "Jerry",
+            "country": "The Netherlands",
+            "city": "Apeldoorn",
+            "institution": "NU",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.jerryvermanen.nl",
+            "email":"YES",
+            "email_url":"jerry@nu.nl",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist"
+            ],
+            "image_url": "res/img/jerry_vermanen.png",
+            "twitter_url": "http://www.twitter.com/jerryvermanen",
+            "twitter": "YES"
+        },
+        {
+            "id": 77,
+            "title": "Aramis Castro Ramos",
+            "name": "Castro Ramos",
+            "firstname": "Aramis",
+            "country": "Peru",
+            "city": "Lima",
+            "institution": "Corresponsales",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.corresponsales.pe",
+            "email":"YES",
+            "email_url":"acastro@corresponsales.pe",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Researcher"
+            ],
+            "image_url": "res/img/aramis_castroramos.png",
+            "twitter_url": "http://www.twitter.com/aramis19",
+            "twitter": "YES"
         }
         
         
