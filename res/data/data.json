@@ -1947,6 +1947,86 @@
             "image_url": "res/img/florian_gossy.png",
             "twitter_url": "http://www.twitter.com/floriangossy",
             "twitter": "YES"
+        },
+        {
+            "id": 80,
+            "title": "Jacopo Ottaviani",
+            "name": "Ottaviani",
+            "firstname": "Jacopo",
+            "country": "Italy",
+            "city": "Rome",
+            "institution": "Freelance",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.about.me/jackottaviani",
+            "email":"YES",
+            "email_url":"j.ottaviani@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Lecturer",
+                "Data Scientist",
+                "Editor",
+                "Designer",
+                "Developer",
+                "Researcher"
+            ],
+            "image_url": "res/img/jacopo_ottaviani.png",
+            "twitter_url": "http://www.twitter.com/jackottaviani",
+            "twitter": "YES"
+        },
+        {
+            "id": 81,
+            "title": "Md Aminul Islam",
+            "name": "Islam",
+            "firstname": "Md Aminul",
+            "country": "Bangladesh",
+            "city": "Dhaka",
+            "institution": "The Daily Star",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"mukul.ru@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Lecturer",
+                "Researcher"
+            ],
+            "image_url": "res/img/dummy_avatar.png",
+            "twitter_url": "",
+            "twitter": "N/A"
+        },
+        {
+            "id": 82,
+            "title": "Peter Sjöholm",
+            "name": "Sjöholm",
+            "firstname": "Peter",
+            "country": "Finland",
+            "city": "Helsinki",
+            "institution": "Finnish Broadcasting Company",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://svenska.yle.fi/profiler/peter-sjoholm",
+            "email":"YES",
+            "email_url":"peter.sjoholm@yle.fi",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/peter_sjoholm.png",
+            "twitter_url": "http://www.twitter.com/sjoholm",
+            "twitter": "YES"
         }
         
         
