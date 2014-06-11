@@ -1858,7 +1858,7 @@
             "firstname": "Jerry",
             "country": "The Netherlands",
             "city": "Apeldoorn",
-            "institution": "NU",
+            "institution": "NU.nl",
             "github":"N/A",
             "github_url":"",
             "website": "YES",
@@ -1896,6 +1896,56 @@
             ],
             "image_url": "res/img/aramis_castroramos.png",
             "twitter_url": "http://www.twitter.com/aramis19",
+            "twitter": "YES"
+        },
+        {
+            "id": 78,
+            "title": "Daan van Elk",
+            "name": "van Elk",
+            "firstname": "Daan",
+            "country": "The Netherlands",
+            "city": "Utrecht",
+            "institution": "NU.nl",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"daanvanelk@hotmail.nl",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Designer"
+            ],
+            "image_url": "res/img/daan_vanelk.png",
+            "twitter_url": "http://www.twitter.com/DaanvanElk",
+            "twitter": "YES"
+        },
+        {
+            "id": 79,
+            "title": "Florian Gossy",
+            "name": "Gossy",
+            "firstname": "Florian",
+            "country": "Austria",
+            "city": "Vienna",
+            "institution": "STANDARD",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://dst.at/gossy",
+            "email":"YES",
+            "email_url":"florian.gossy@derstandard.at",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/florian_gossy.png",
+            "twitter_url": "http://www.twitter.com/floriangossy",
             "twitter": "YES"
         }
         
