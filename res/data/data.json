@@ -1930,7 +1930,7 @@
             "firstname": "Florian",
             "country": "Austria",
             "city": "Vienna",
-            "institution": "STANDARD",
+            "institution": "DER STANDARD",
             "github":"N/A",
             "github_url":"",
             "website": "YES",
@@ -2103,6 +2103,56 @@
             ],
             "image_url": "res/img/bjorn_schwentker.png",
             "twitter_url": "http://www.twitter.com/BSchwentker",
+            "twitter": "YES"
+        },
+        {
+            "id": 86,
+            "title": "Markus Hametner",
+            "name": "Hametner",
+            "firstname": "Vienna",
+            "country": "Austria",
+            "city": "Hamburg",
+            "institution": "DER STANDARD",
+            "github":"YES",
+            "github_url":"http://www.github.com/fin",
+            "website": "YES",
+            "website_url": "http://www.fin.io",
+            "email":"YES",
+            "email_url":"fin@fin.io",
+            "pgp":"Key ID",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x4D1D6DF4506AFA95",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Designer",
+                "Developer"
+            ],
+            "image_url": "res/img/markus_hametner.png",
+            "twitter_url": "http://www.twitter.com/fin",
+            "twitter": "YES"
+        },
+        {
+            "id": 87,
+            "title": "Maria Manolova",
+            "name": "Manolova",
+            "firstname": "Maria",
+            "country": "Bulgaria",
+            "city": "Sofia",
+            "institution": "Capital Weekly",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.capital.bg",
+            "email":"YES",
+            "email_url":"maria.manolova@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/maria_manolova.png",
+            "twitter_url": "http://www.twitter.com/mellyan",
             "twitter": "YES"
         }
         
