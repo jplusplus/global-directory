@@ -2027,7 +2027,85 @@
             "image_url": "res/img/peter_sjoholm.png",
             "twitter_url": "http://www.twitter.com/sjoholm",
             "twitter": "YES"
+        },
+        {
+            "id": 83,
+            "title": "Paula Guisado",
+            "name": "Guisado",
+            "firstname": "Paula",
+            "country": "Spain",
+            "city": "Madrid",
+            "institution": "UNIR",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"paula_guisado@hotmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Researcher"
+            ],
+            "image_url": "res/img/paula_guisado.png",
+            "twitter_url": "http://www.twitter.com/PauGuisado",
+            "twitter": "YES"
+        },
+        {
+            "id": 84,
+            "title": "Nick Henn",
+            "name": "Henn",
+            "firstname": "Nick",
+            "country": "Germany",
+            "city": "Berlin",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.gnutiez.de",
+            "email":"YES",
+            "email_url":"nick@abcxyz.de",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Developer",
+                "Researcher",
+                "Data Scientist",
+                "Statistician"
+            ],
+            "image_url": "res/img/nick_henn.png",
+            "twitter_url": "http://www.twitter.com/gnutiez",
+            "twitter": "YES"
+        },
+        {
+            "id": 85,
+            "title": "Björn Schwentker",
+            "name": "Schwentker",
+            "firstname": "Björn",
+            "country": "Germany",
+            "city": "Hamburg",
+            "institution": "Freelance",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.demografie-blog.de",
+            "email":"YES",
+            "email_url":"mail@bjoernschwentker.de",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "GIS"
+            ],
+            "image_url": "res/img/bjorn_schwentker.png",
+            "twitter_url": "http://www.twitter.com/BSchwentker",
+            "twitter": "YES"
         }
+        
         
         
     ]
