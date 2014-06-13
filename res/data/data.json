@@ -2261,6 +2261,106 @@
             "image_url": "res/img/bruno_debondt.png",
             "twitter_url": "http://www.twitter.com/brunodbo",
             "twitter": "YES"
+        },
+        {
+            "id": 92,
+            "title": "Colin Hart",
+            "name": "Hart",
+            "firstname": "Colin",
+            "country": "United States",
+            "city": "New York",
+            "institution": "N/A",
+            "github":"YES",
+            "github_url":"http://www.github.com/cohart",
+            "website": "YES",
+            "website_url": "http://cohart.github.io",
+            "email":"YES",
+            "email_url":"me@colin-hart.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Researcher",
+                "Developer"
+            ],
+            "image_url": "res/img/colin_hart.png",
+            "twitter_url": "http://www.twitter.com/Colin_H_Hart",
+            "twitter": "YES"
+        },
+        {
+            "id": 93,
+            "title": "Momi Peralta Ramos",
+            "name": "Peralta Ramos",
+            "firstname": "Momi",
+            "country": "Argentina",
+            "city": "Buenos Aires",
+            "institution": "LA NACION (Argentina)",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.lanacion.com.ar/data",
+            "email":"YES",
+            "email_url":"mperalta@lanacion.com.ar",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Researcher",
+                "Data Scientist"
+            ],
+            "image_url": "res/img/momi_peraltaramos.png",
+            "twitter_url": "http://www.twitter.com/momiperalta",
+            "twitter": "YES"
+        },
+        {
+            "id": 94,
+            "title": "Joshua Hatch",
+            "name": "Hatch",
+            "firstname": "Joshua",
+            "country": "United States",
+            "city": "Washington",
+            "institution": "The Chronicle of Higher Education",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.hatchomatic.com",
+            "email":"YES",
+            "email_url":"hatchjt@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Editor",
+                "Lecturer"
+            ],
+            "image_url": "res/img/joshua_hatch.png",
+            "twitter_url": "http://www.twitter.com/hatchjt",
+            "twitter": "YES"
+        },
+        {
+            "id": 95,
+            "title": "Lucas Portilho",
+            "name": "Portilho",
+            "firstname": "Lucas",
+            "country": "Brazil",
+            "city": "Juiz de Fora",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"jor.lucas@outlook.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Designer",
+                "Developer"
+            ],
+            "image_url": "res/img/lucas_portilho.png",
+            "twitter_url": "http://www.twitter.com/pt_informer55",
+            "twitter": "YES"
         }
         
         
