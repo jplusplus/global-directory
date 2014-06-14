@@ -2361,8 +2361,135 @@
             "image_url": "res/img/lucas_portilho.png",
             "twitter_url": "http://www.twitter.com/pt_informer55",
             "twitter": "YES"
+        },
+        {
+            "id": 96,
+            "title": "Duc-Quang Nguyen",
+            "name": "Nguyen",
+            "firstname": "Duc-Quang",
+            "country": "Switzerland",
+            "city": "Lausanne",
+            "institution": "SWISSINFO",
+            "github":"YES",
+            "github_url":"http://www.github.com/d-qn",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"ducquang.nguyen@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Researcher",
+                "Data Journalist",
+                "Data Scientist",
+                "Developer",
+                "Statistician",
+                "GIS"
+            ],
+            "image_url": "res/img/ducquang_nguyen.png",
+            "twitter_url": "http://www.twitter.com/duckyduke",
+            "twitter": "YES"
+        },
+        {
+            "id": 97,
+            "title": "Ettore Rizza",
+            "name": "Rizza",
+            "firstname": "Ettore",
+            "country": "Belgium",
+            "city": "Brussels",
+            "institution": "Freelance",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"ettorerizza@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/ettore_rizza.png",
+            "twitter_url": "http://www.twitter.com/Ettore_Rizza",
+            "twitter": "YES"
+        },
+        {
+            "id": 98,
+            "title": "Vito Gallotta",
+            "name": "Gallotta",
+            "firstname": "Vito",
+            "country": "Italy",
+            "city": "Bari",
+            "institution": "Freelance",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"gallottavito@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Researcher"
+            ],
+            "image_url": "res/img/noimage.png",
+            "twitter_url": "",
+            "twitter": "N/A"
+        },
+        {
+            "id": 99,
+            "title": "Natalia Karbasova",
+            "name": "Karbasova",
+            "firstname": "Natalia",
+            "country": "Germany",
+            "city": "Munich",
+            "institution": "Hubert Burda Media",
+            "github":"YES",
+            "github_url":"http://www.github.com/karbasa",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"natalia.karbasova@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Lecturer",
+                "Journalist",
+                "Data Journalist",
+                "Editor",
+                "Data Scientist"
+            ],
+            "image_url": "res/img/natalia_karbasova.png",
+            "twitter_url": "http://www.twitter.com/karbasa",
+            "twitter": "YES"
+        },
+        {
+            "id": 100,
+            "title": "Friedrich Lindenberg",
+            "name": "Lindenberg",
+            "firstname": "Friedrich",
+            "country": "South Africa",
+            "city": "Cape Town",
+            "institution": "ICFJ",
+            "github":"YES",
+            "github_url":"http://www.github.com/pudo",
+            "website": "YES",
+            "website_url": "http://www.pudo.org",
+            "email":"YES",
+            "email_url":"friedrich@pudo.org",
+            "pgp":"FE73C654",
+            "pgp_url":"https://hkps.pool.sks-keyservers.net/pks/lookup?op=get&search=0xF81BEA60FE73C654",
+            "skills": [
+                "Data Journalist",
+                "Designer",
+                "Developer",
+                "Lecturer"
+            ],
+            "image_url": "res/img/friedrich_lindenberg.png",
+            "twitter_url": "http://www.twitter.com/pudo",
+            "twitter": "YES"
         }
-        
         
         
     ]
