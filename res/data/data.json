@@ -489,7 +489,7 @@
             "city": "Strasbourg",
             "institution": "Rue89Strasbourg",
             "github":"YES",
-            "github_url":"https://github.com/raphadasilva",
+            "github_url":"http://www.github.com/raphadasilva",
             "website": "YES",
             "website_url": "http://blog.m0le.net/category/informatique/data",
             "email":"YES",
@@ -553,7 +553,7 @@
                 "Researcher"
             ],
             "image_url": "res/img/marcelo_soares.png",
-            "twitter_url": "https://www.twitter.com/msoares",
+            "twitter_url": "http://www.twitter.com/msoares",
             "twitter": "YES"
         },
         {
@@ -654,7 +654,7 @@
                 "Researcher"
             ],
             "image_url": "res/img/mona_chalabi.png",
-            "twitter_url": "http://twitter.com/MonaChalabi",
+            "twitter_url": "http://www.twitter.com/MonaChalabi",
             "twitter": "YES"
         },
         {
@@ -666,7 +666,7 @@
             "city": "Zurich",
             "institution": "Tages-Anzeiger",
             "github":"YES",
-            "github_url":"http://github.com/datajules",
+            "github_url":"http://www.github.com/datajules",
             "website": "YES",
             "website_url": "http://www.julianschmidli.com",
             "email":"YES",
@@ -776,7 +776,7 @@
                 "Lecturer"
             ],
             "image_url": "res/img/philippe_couve.png",
-            "twitter_url": "https://twitter.com/couve",
+            "twitter_url": "http://www.twitter.com/couve",
             "twitter": "YES"
         },
         {
@@ -1088,7 +1088,7 @@
             "city": "Nairobi",
             "institution": "Internews",
             "github":"YES",
-            "github_url":"https://github.com/evaconstantaras",
+            "github_url":"http://www.github.com/evaconstantaras",
             "website": "YES",
             "website_url": "http://ke.linkedin.com/pub/eva-constantaras/10/a2b/143",
             "email":"YES",
