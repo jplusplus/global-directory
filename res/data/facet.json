@@ -8,7 +8,11 @@
             "label": "country",
             "name": "country"
         },
-        
+        {
+            "type": "alphabetical",
+            "label": "city",
+            "name": "city"
+        },
         {
             "type": "alphabetical",
             "label": "institution",

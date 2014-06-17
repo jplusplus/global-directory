@@ -45,6 +45,10 @@ Pyk.newsDiscovery = function(){
             return d.country;
         });
 
+        this.crossfilter.ee_dimension = this.crossfilter.data.dimension(function(d){
+            return d.city;
+        });
+
         this.crossfilter.gg_dimension = this.crossfilter.data.dimension(function(d){
             return d.github;
         });
@@ -69,7 +73,9 @@ Pyk.newsDiscovery = function(){
 
         // Create empty filter roster
         this.activeFilters = {
+            
             "gg": [],
+            "ee": [],
             "ff": [],
             "dd": [],
             "aa": [],
@@ -123,6 +129,27 @@ Pyk.newsDiscovery = function(){
                 that.filter("dd", d.key);
             });
         dd_list.exit().remove();
+
+
+
+        // City
+        var ee_tags = this._removeEmptyKeys(this.crossfilter.ee_dimension.group().all(), "ee");
+        var ee_list = d3.select("#table6").selectAll("li").data(ee_tags);
+        ee_list.enter().append("li");
+        ee_list
+            .html(function(d){
+                var link = "<a href='#'>" + d.key;
+                link += "<span class='badge'>" + d.value + "</span>";
+                link += "</a>";
+                return link;
+            })
+            .classed("active", function(d){
+                return that._isActiveFilter("ee", d.key);
+            })
+            .on("click", function(d){
+                that.filter("ee", d.key);
+            });
+        ee_list.exit().remove();
 
 
 
@@ -242,6 +269,13 @@ Pyk.newsDiscovery = function(){
 
         // RUN ALL THE FILTERS! :P
         
+        this.crossfilter.ee_dimension.filterAll();
+        if(this.activeFilters["ee"].length > 0){
+            this.crossfilter.ee_dimension.filter(function(d){
+                return that.activeFilters["ee"].indexOf(d) > -1;
+            });
+        }
+
         this.crossfilter.gg_dimension.filterAll();
         if(this.activeFilters["gg"].length > 0){
             this.crossfilter.gg_dimension.filter(function(d){
