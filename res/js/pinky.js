@@ -45,9 +45,15 @@ Pyk.newsDiscovery = function(){
             return d.country;
         });
 
+        this.crossfilter.gg_dimension = this.crossfilter.data.dimension(function(d){
+            return d.github;
+        });
+        
         this.crossfilter.ff_dimension = this.crossfilter.data.dimension(function(d){
             return d.institution;
         });
+
+        
 
         // --  -- //
         // We need 2 identical dimensions for the numbers to update
@@ -63,6 +69,7 @@ Pyk.newsDiscovery = function(){
 
         // Create empty filter roster
         this.activeFilters = {
+            "gg": [],
             "ff": [],
             "dd": [],
             "aa": [],
@@ -75,7 +82,9 @@ Pyk.newsDiscovery = function(){
 
         var that = this;
 
-        // 
+        
+
+        // Skills
         var aa_tags = this._aaReduce(this.crossfilter.aar_dimension.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value());
         var aa_list = d3.select("#table3").selectAll("li").data(aa_tags);
         aa_list.enter().append("li");
@@ -96,7 +105,7 @@ Pyk.newsDiscovery = function(){
 
 
 
-        // D
+        // Country
         var dd_tags = this._removeEmptyKeys(this.crossfilter.dd_dimension.group().all(), "dd");
         var dd_list = d3.select("#table1").selectAll("li").data(dd_tags);
         dd_list.enter().append("li");
@@ -116,7 +125,8 @@ Pyk.newsDiscovery = function(){
         dd_list.exit().remove();
 
 
-        //
+
+        // Institution
         var ff_tags = this._removeEmptyKeys(this.crossfilter.ff_dimension.group().all(), "ff");
         var ff_list = d3.select("#table2").selectAll("li").data(ff_tags);
         ff_list.enter().append("li");
@@ -136,7 +146,29 @@ Pyk.newsDiscovery = function(){
         ff_list.exit().remove();
 
 
-        // Title
+
+       // GitHub
+        var gg_tags = this._removeEmptyKeys(this.crossfilter.gg_dimension.group().all(), "gg");
+        var gg_list = d3.select("#table5").selectAll("li").data(gg_tags);
+       	gg_list.enter().append("li");
+        gg_list
+            .html(function(d){
+                var link = "<a href='#'>" + d.key;
+                link += "<span class='badge'>" + d.value + "</span>";
+                link += "</a>";
+                return link;
+            })
+            .classed("active", function(d){
+                return that._isActiveFilter("gg", d.key);
+            })
+            .on("click", function(d){
+                that.filter("gg", d.key);
+            });
+        gg_list.exit().remove();
+
+
+
+        // Title aka Full Name
         var id_tags = this._removeEmptyKeys(this.crossfilter.id_dimension.group().all(), "id");
         var id_list = d3.select("#table4").selectAll("li").data(id_tags);
         id_list.enter().append("li");
@@ -155,6 +187,9 @@ Pyk.newsDiscovery = function(){
                 that.filter("id", d.key);
             });
         id_list.exit().remove();
+
+
+
 
         // Grid at the bottom
         d3.select("#grid").selectAll("li").remove();
@@ -206,6 +241,14 @@ Pyk.newsDiscovery = function(){
 
 
         // RUN ALL THE FILTERS! :P
+        
+        this.crossfilter.gg_dimension.filterAll();
+        if(this.activeFilters["gg"].length > 0){
+            this.crossfilter.gg_dimension.filter(function(d){
+                return that.activeFilters["gg"].indexOf(d) > -1;
+            });
+        }
+
         this.crossfilter.dd_dimension.filterAll();
         if(this.activeFilters["dd"].length > 0){
             this.crossfilter.dd_dimension.filter(function(d){

@@ -2,6 +2,7 @@
     "name": "facets",
     "children":
     [
+        
         {
             "type": "alphabetical",
             "label": "country",
@@ -17,6 +18,11 @@
             "type": "nominal", 
             "label": "skills",
             "name": "skills"
+        },
+        {
+            "type": "alphabetical",
+            "label": "github",
+            "name": "github"
         },
         {
             "type": "alphabetical",
