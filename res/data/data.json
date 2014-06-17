@@ -2794,6 +2794,57 @@
             "image_url": "res/img/david_bauer.png",
             "twitter_url": "http://www.twitter.com/davidbauer",
             "twitter": "YES"
+        },
+        {
+            "id": 113,
+            "title": "Irene Jay Liu",
+            "name": "Liu",
+            "firstname": "Irene Jay",
+            "country": "China",
+            "city": "Hong Kong",
+            "institution": "Thomson Reuters",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.irenejayliu.com",
+            "email":"YES",
+            "email_url":"irene.liu@thomsonreuters.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Editor",
+                "Journalist",
+                "Data Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/irenejay_liu.png",
+            "twitter_url": "http://www.twitter.com/IreneJayLiu",
+            "twitter": "YES"
+        },
+        {
+            "id": 114,
+            "title": "Michael Hörz",
+            "name": "Hörz",
+            "firstname": "Michael",
+            "country": "Germany",
+            "city": "Berlin",
+            "institution": "Freelance",
+            "github":"YES",
+            "github_url":"http://www.github.com/m-hoerz",
+            "website": "YES",
+            "website_url": "http://www.michael-hoerz.de",
+            "email":"YES",
+            "email_url":"hoerz@michael-hoerz.de",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Researcher",
+                "Data Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/michael_horz.png",
+            "twitter_url": "http://www.twitter.com/data_meining",
+            "twitter": "YES"
         }
     ]
 }
