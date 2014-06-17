@@ -2721,6 +2721,79 @@
             "image_url": "res/img/jonathon_morgan.png",
             "twitter_url": "http://www.twitter.com/jonathonmorgan",
             "twitter": "YES"
+        },
+        {
+            "id": 110,
+            "title": "Yolanda Jinxin Ma",
+            "name": "Ma",
+            "firstname": "Yolanda Jinxin",
+            "country": "China",
+            "city": "Hong Kong",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.yolandama.com",
+            "email":"YES",
+            "email_url":"yolandahku@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Editor",
+                "Lecturer",
+                "Project Management"
+            ],
+            "image_url": "res/img/yolandajinxin_ma.png",
+            "twitter_url": "http://www.twitter.com/MaJinxin",
+            "twitter": "YES"
+        },
+        {
+            "id": 111,
+            "title": "Alora Guerrero",
+            "name": "Guerrero",
+            "firstname": "Alora",
+            "country": "Philippines",
+            "city": "Taguig",
+            "institution": "Yahoo",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://ph.yahoo.com/",
+            "email":"YES",
+            "email_url":"alora.guerrero@yahoo.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Editor"
+            ],
+            "image_url": "res/img/alora_guerrero.png",
+            "twitter_url": "http://www.twitter.com/aloraguerrero",
+            "twitter": "YES"
+        },
+        {
+            "id": 112,
+            "title": "David Bauer",
+            "name": "Bauer",
+            "firstname": "David",
+            "country": "Switzerland",
+            "city": "Basel",
+            "institution": "N/A",
+            "github":"YES",
+            "github_url":"http://www.github.com/davidbauer",
+            "website": "YES",
+            "website_url": "http://www.davidbauer.ch",
+            "email":"YES",
+            "email_url":"info@davidbauer.ch",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Editor",
+                "Journalist",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/david_bauer.png",
+            "twitter_url": "http://www.twitter.com/davidbauer",
+            "twitter": "YES"
         }
         
         
