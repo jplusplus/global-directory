@@ -2845,6 +2845,57 @@
             "image_url": "res/img/michael_horz.png",
             "twitter_url": "http://www.twitter.com/data_meining",
             "twitter": "YES"
+        },
+        {
+            "id": 115,
+            "title": "Sylke Gruhnwald",
+            "name": "Gruhnwald",
+            "firstname": "Sylke",
+            "country": "Switzerland",
+            "city": "Zurich",
+            "institution": "Neue Zürcher Zeitung",
+            "github":"YES",
+            "github_url":"http://www.github.com/sylke-gruhnwald",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"sylke.gruhnwald@gmail.com",
+            "pgp":"E6934534",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=vindex&search=0x791CE8EFE6934534",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Editor",
+                "Researcher",
+                "Lecturer"
+            ],
+            "image_url": "res/img/sylke_gruhnwald.png",
+            "twitter_url": "http://www.twitter.com/SylkeGruhnwald",
+            "twitter": "YES"
+        },
+        {
+            "id": 116,
+            "title": "Moritz Klack",
+            "name": "Klack",
+            "firstname": "Moritz",
+            "country": "Germany",
+            "city": "Berlin",
+            "institution": "webkid",
+            "github":"YES",
+            "github_url":"http://www.github.com/moklick",
+            "website": "YES",
+            "website_url": "http://www.webkid.io",
+            "email":"YES",
+            "email_url":"info@moritzklack.com",
+            "pgp":"E2E6F88E",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?search=info%40moritzklack.com&op=index",
+            "skills": [
+                "Developer",
+                "GIS"
+            ],
+            "image_url": "res/img/moritz_klack.png",
+            "twitter_url": "http://www.twitter.com/moklick",
+            "twitter": "YES"
         }
     ]
 }
