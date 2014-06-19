@@ -3021,6 +3021,33 @@
             "image_url": "res/img/sascha_venohr.png",
             "twitter_url": "http://www.twitter.com/venohr",
             "twitter": "YES"
+        },
+        {
+            "id": 122,
+            "title": "Stefano Ceccon",
+            "name": "Ceccon",
+            "firstname": "Stefano",
+            "country": "United Kingdom",
+            "city": "London",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"ceccon.stefano@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Researcher",
+                "Data Scientist",
+                "Statistician",
+                "GIS"
+            ],
+            "image_url": "res/img/stefano_ceccon.png",
+            "twitter_url": "http://www.twitter.com/StefioCeccon",
+            "twitter": "YES"
         }
         
     ]
