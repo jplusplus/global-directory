@@ -2896,6 +2896,81 @@
             "image_url": "res/img/moritz_klack.png",
             "twitter_url": "http://www.twitter.com/moklick",
             "twitter": "YES"
+        },
+        {
+            "id": 117,
+            "title": "Harkanwal Singh",
+            "name": "Singh",
+            "firstname": "Harkanwal",
+            "country": "New Zealand",
+            "city": "Auckland",
+            "institution": "New Zealand Herald",
+            "github":"YES",
+            "github_url":"http://www.github.com/kamal-hothi",
+            "website": "YES",
+            "website_url": "http://www.kamalhothi.org",
+            "email":"YES",
+            "email_url":"harkanwal.singh@nzherald.co.nz",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Developer",
+                "GIS",
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/harkanwal_singh.png",
+            "twitter_url": "http://www.twitter.com/kamal_hothi",
+            "twitter": "YES"
+        },
+        {
+            "id": 118,
+            "title": "Concha Catalan",
+            "name": "Catalan",
+            "firstname": "Concha",
+            "country": "Spain",
+            "city": "Barcelona",
+            "institution": "Opengov.cat",
+            "github":"YES",
+            "github_url":"http://www.github.com/littleshell",
+            "website": "YES",
+            "website_url": "http://www.opengov.cat",
+            "email":"YES",
+            "email_url":"opengovcat@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/concha_catalan.png",
+            "twitter_url": "http://www.twitter.com/conchacatalan",
+            "twitter": "YES"
+        },
+        {
+            "id": 119,
+            "title": "Chad Skelton",
+            "name": "Skelton",
+            "firstname": "Chad",
+            "country": "Canada",
+            "city": "Vancouver",
+            "institution": "The Vancouver Sun",
+            "github":"YES",
+            "github_url":"http://www.github.com/chadskelton",
+            "website": "YES",
+            "website_url": "http://blogs.vancouversun.com/category/staff/news/the-data-trail/",
+            "email":"YES",
+            "email_url":"cskeltonnews@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/chad_skelton.png",
+            "twitter_url": "http://www.twitter.com/chadskelton",
+            "twitter": "YES"
         }
     ]
 }
