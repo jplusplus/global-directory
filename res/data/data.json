@@ -2971,6 +2971,56 @@
             "image_url": "res/img/chad_skelton.png",
             "twitter_url": "http://www.twitter.com/chadskelton",
             "twitter": "YES"
+        },
+        {
+            "id": 120,
+            "title": "Andrea Nelson Mauro",
+            "name": "Skelton",
+            "firstname": "Andrea Mauro",
+            "country": "Italy",
+            "city": "Bologna",
+            "institution": "Dataninja.it",
+            "github":"YES",
+            "github_url":"http://www.github.com/dataninja",
+            "website": "YES",
+            "website_url": "http://www.dataninja.it",
+            "email":"YES",
+            "email_url":"nelsonmau@dataninja.it",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/andreanelson_mauro.png",
+            "twitter_url": "http://www.twitter.com/nelsonmau",
+            "twitter": "YES"
+        },
+        {
+            "id": 121,
+            "title": "Sascha Venohr",
+            "name": "Venohr",
+            "firstname": "Sascha",
+            "country": "Germany",
+            "city": "Berlin",
+            "institution": "ZEIT ONLINE",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.zeit.de/datenjournalismus",
+            "email":"YES",
+            "email_url":"sascha.venohr@zeit.de",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/sascha_venohr.png",
+            "twitter_url": "http://www.twitter.com/venohr",
+            "twitter": "YES"
         }
         
     ]
