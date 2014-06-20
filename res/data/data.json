@@ -3048,6 +3048,128 @@
             "image_url": "res/img/stefano_ceccon.png",
             "twitter_url": "http://www.twitter.com/StefioCeccon",
             "twitter": "YES"
+        },
+        {
+            "id": 123,
+            "title": "Claes Holtzmann",
+            "name": "Holtzmann",
+            "firstname": "Claes",
+            "country": "Denmark",
+            "city": "Esbjerg",
+            "institution": "JydskeVestkysten",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.claeshs.dk",
+            "email":"YES",
+            "email_url":"chs@jv.dk",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/claes_holtzmann.png",
+            "twitter_url": "http://www.twitter.com/Claeshs",
+            "twitter": "YES"
+        },
+        {
+            "id": 124,
+            "title": "Chris Parry",
+            "name": "Parry",
+            "firstname": "Chris",
+            "country": "Canada",
+            "city": "Vancouver",
+            "institution": "Stockhouse",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.stockhouse.com",
+            "email":"YES",
+            "email_url":"centrifoogle@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/chris_parry.png",
+            "twitter_url": "http://www.twitter.com/chrisparry",
+            "twitter": "YES"
+        },
+        {
+            "id": 125,
+            "title": "Yamri Taddese",
+            "name": "Taddese",
+            "firstname": "Yamri",
+            "country": "Canada",
+            "city": "Toronto",
+            "institution": "Thomson Reuters",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"yamri.taddese@thomsonreuters.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Researcher"
+            ],
+            "image_url": "res/img/yamri_taddese.png",
+            "twitter_url": "http://www.twitter.com/YamriT",
+            "twitter": "YES"
+        },
+        {
+            "id": 126,
+            "title": "Ferran Caymel Ubia",
+            "name": "Caymel Ubia",
+            "firstname": "Ferran",
+            "country": "Spain",
+            "city": "Barcelona",
+            "institution": "appaqui",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.appaqui.cat",
+            "email":"YES",
+            "email_url":"ferranmail@operamail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Designer",
+                "GIS"
+            ],
+            "image_url": "res/img/ferran_caymelubia.png",
+            "twitter_url": "http://www.twitter.com/AppAqui",
+            "twitter": "YES"
+        },
+        {
+            "id": 127,
+            "title": "Masayuki Shimizu",
+            "name": "Shimizu",
+            "firstname": "Masayuki",
+            "country": "Japan",
+            "city": "Gunma",
+            "institution": "N/A",
+            "github":"YES",
+            "github_url":"http://www.github.com/shimizu",
+            "website": "YES",
+            "website_url": "http://www.shimz.me",
+            "email":"YES",
+            "email_url":"xxshimizuxx@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "GIS"
+            ],
+            "image_url": "res/img/Masayuki_shimizu.png",
+            "twitter_url": "http://www.twitter.com/_shimizu",
+            "twitter": "YES"
         }
         
     ]
