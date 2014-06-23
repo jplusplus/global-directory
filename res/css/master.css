@@ -232,6 +232,10 @@ input.search-query {
     margin-right: 10px;
 }
 
+.form-control {
+    height: 30px;
+}
+
 form.form-search {
     position: relative;
 }

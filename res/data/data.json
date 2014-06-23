@@ -3029,11 +3029,11 @@
             "firstname": "Stefano",
             "country": "United Kingdom",
             "city": "London",
-            "institution": "N/A",
+            "institution": "The Times",
             "github":"N/A",
             "github_url":"",
-            "website": "N/A",
-            "website_url": "",
+            "website": "YES",
+            "website_url": "http://uk.linkedin.com/in/stefanoceccon",
             "email":"YES",
             "email_url":"ceccon.stefano@gmail.com",
             "pgp":"N/A",
@@ -3517,6 +3517,29 @@
             ],
             "image_url": "res/img/donata_columbro.png",
             "twitter_url": "http://www.twitter.com/dontyna",
+            "twitter": "YES"
+        },
+        {
+            "id": 142,
+            "title": "Silvia Font",
+            "name": "Font",
+            "firstname": "Silvia",
+            "country": "The Netherlands",
+            "city": "Utrecht",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"silvia.font,ar@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist"
+            ],
+            "image_url": "res/img/silvia_font.png",
+            "twitter_url": "http://www.twitter.com/FrauOlivetti",
             "twitter": "YES"
         }
         
