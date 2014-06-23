@@ -221,3 +221,31 @@ body, html{
     padding: 2px;
     transition: all 0.2s ease-in-out 0s;
 }
+
+/* Search styling */
+
+input.search-query {
+    padding-left:26px;
+    color            : black;
+    font-size        : 0.6em;
+    font-family      : 'Titillium Web', sans-serif;
+    margin-right: 10px;
+}
+
+form.form-search {
+    position: relative;
+}
+
+form.form-search:before {
+    content:'';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: -48px 0;
+    position: absolute;
+    top:8px;
+    left:8px;
+    opacity: .5;
+    z-index: 1000;
+}

@@ -5,10 +5,12 @@ $(function(){
 });
 
 var Pyk = {};
+var id_tags;
 
 Pyk.newsDiscovery = function(){
 
     this.init = function(){
+    
         var that = this;
 
         // Load Facets & Render
@@ -22,7 +24,9 @@ Pyk.newsDiscovery = function(){
             that.data = json;
             that.initCrossfilter();
             that.renderTags();
-        });
+            that.initSearch();
+        });                
+        
     };
 
 
@@ -34,6 +38,7 @@ Pyk.newsDiscovery = function(){
 
 
     this.initCrossfilter = function(){
+    
         this.crossfilter = {};
         this.crossfilter.data = crossfilter(this.data.children);
 
@@ -56,8 +61,6 @@ Pyk.newsDiscovery = function(){
         this.crossfilter.ff_dimension = this.crossfilter.data.dimension(function(d){
             return d.institution;
         });
-
-        
 
         // --  -- //
         // We need 2 identical dimensions for the numbers to update
@@ -86,9 +89,7 @@ Pyk.newsDiscovery = function(){
 
     this.renderTags = function(){
 
-        var that = this;
-
-        
+        var that = this;        
 
         // Skills
         var aa_tags = this._aaReduce(this.crossfilter.aar_dimension.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value());
@@ -196,7 +197,7 @@ Pyk.newsDiscovery = function(){
 
 
         // Title aka Full Name
-        var id_tags = this._removeEmptyKeys(this.crossfilter.id_dimension.group().all(), "id");
+        id_tags = this._removeEmptyKeys(this.crossfilter.id_dimension.group().all(), "id");
         var id_list = d3.select("#table4").selectAll("li").data(id_tags);
         id_list.enter().append("li");
         id_list
@@ -214,8 +215,6 @@ Pyk.newsDiscovery = function(){
                 that.filter("id", d.key);
             });
         id_list.exit().remove();
-
-
 
 
         // Grid at the bottom
@@ -324,10 +323,65 @@ Pyk.newsDiscovery = function(){
         this.renderTags();
     };
 
-
     /*--------------------
       HELPERS
     --------------------*/
+    
+    // Defines method for search and typeahead.
+    this.initSearch = function(){
+    
+    	var that = this;  
+    	
+    	var searchFilterArray = this._buildSearchFilterArray(); 
+	        
+	    $('#search').typeahead({    
+	    	    	           	    
+		    source: function (query, process) {	    	       	        	  	       	       	  
+		       	        
+		       	var articleTitles = searchFilterArray.articleTitles 	   			       	
+		        process(articleTitles);		    
+	
+		    },
+		    updater: function (item) {
+		        			        
+		        var searchTerm = item;
+			    var article = searchFilterArray[searchTerm];		  
+			    if(article.filter){
+			      	that.filter(article.filter,article.id);
+			    }	
+		        		        
+	    		return item;
+		        
+		    },
+		    matcher: function (item) {
+		        
+		        if (item.toLowerCase().indexOf(this.query.trim().toLowerCase()) != -1) {
+			        return true;
+			    }
+		        
+		    },
+		    sorter: function (items) {
+		        
+		        return items.sort();
+		        
+		    },
+		    highlighter: function (item) {
+		       
+		       var regex = new RegExp( '(' + this.query + ')', 'gi' );
+			   return item.replace( regex, "<strong>$1</strong>" );
+			   
+		    },
+		});
+		
+		$('#clear_search_btn').click(function () { 
+
+		  that.initCrossfilter();
+          that.renderTags();
+          $("#search").val("");
+	      	      
+	    });
+    
+    };
 
     this._isActiveFilter = function(d,e){
         var i = this.activeFilters[d].indexOf(e);
@@ -340,7 +394,80 @@ Pyk.newsDiscovery = function(){
         var articles = this.data.children;
         for(var i in articles) if(articles[i].id == id) return articles[i];
         return false;
-    };
+    };    
+    
+    // Gets the list of titles from the articles
+    this._buildSearchFilterArray = function(){
+    
+    	var that = this;
+        	
+    	//Define metadata Object, containing an array of titles for the autocompletion
+    	var articleSearchFilter = new Object;  
+    	articleSearchFilter.articleTitles = [];    	
+    	
+    	// Skills
+    	var aa_tags = this._aaReduce(this.crossfilter.aar_dimension.groupAll().reduce(reduceAdd, reduceRemove, reduceInitial).value());
+        
+        $.each(aa_tags, function( index, value ) {
+	        articleSearchFilter[value["key"]] = new Object;			
+			articleSearchFilter[value["key"]].filter = "aa";
+			articleSearchFilter[value["key"]].id = value["key"];
+			articleSearchFilter.articleTitles.push(value["key"]);  
+		});
+        
+        // Country
+        var dd_tags = this._removeEmptyKeys(this.crossfilter.dd_dimension.group().all(), "dd");
+        
+        $.each(dd_tags, function( index, value ) {	
+	        articleSearchFilter[value["key"]] = new Object;		
+			articleSearchFilter[value["key"]].filter = "dd";
+			articleSearchFilter[value["key"]].id = value["key"];
+			articleSearchFilter.articleTitles.push(value["key"]);  
+		});
+        
+        // City
+        var ee_tags = this._removeEmptyKeys(this.crossfilter.ee_dimension.group().all(), "ee");
+        
+        $.each(ee_tags, function( index, value ) {		
+        	articleSearchFilter[value["key"]] = new Object;	
+			articleSearchFilter[value["key"]].filter = "ee";
+			articleSearchFilter[value["key"]].id = value["key"];
+			articleSearchFilter.articleTitles.push(value["key"]);  
+		});
+		
+        // Institution
+        var ff_tags = this._removeEmptyKeys(this.crossfilter.ff_dimension.group().all(), "ff");
+       
+        $.each(ff_tags, function( index, value ) {	
+        	articleSearchFilter[value["key"]] = new Object;		
+			articleSearchFilter[value["key"]].filter = "ff";
+			articleSearchFilter[value["key"]].id = value["key"];
+			articleSearchFilter.articleTitles.push(value["key"]);  
+		});
+		
+       	// GitHub
+        /*var gg_tags = this._removeEmptyKeys(this.crossfilter.gg_dimension.group().all(), "gg");
+       
+        $.each(gg_tags, function( index, value ) {
+			console.log(value["key"]);
+			articleTitles.push(value["key"]);  
+		});*/
+		
+        // Title aka Full Name
+        //id_tags = this._removeEmptyKeys(this.crossfilter.id_dimension.group().all(), "id");
+       
+        $.each(id_tags, function( index, value ) {
+        	var a = that._findArticleById(value["key"]);
+        	articleSearchFilter[a.title] = new Object;
+        	articleSearchFilter[a.title].filter = "id";
+			articleSearchFilter[a.title].id = a.id;
+			articleSearchFilter.articleTitles.push(a.title);  
+        				
+		});
+            	
+    	return articleSearchFilter;
+        
+    }; 
 
     // This function does two things:
     //  1. Removes keys if their values are 0
@@ -373,6 +500,8 @@ Pyk.newsDiscovery = function(){
         for(var i in d) a.push({"key": i, "value": d[i]});
         return a;
     };
+    
+  
 };
 
 
