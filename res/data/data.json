@@ -3541,6 +3541,58 @@
             "image_url": "res/img/silvia_font.png",
             "twitter_url": "http://www.twitter.com/FrauOlivetti",
             "twitter": "YES"
+        },
+        {
+            "id": 143,
+            "title": "Bernd Oswald",
+            "name": "Oswald",
+            "firstname": "Bernd",
+            "country": "Germany",
+            "city": "Munich",
+            "institution": "Freelance",
+            "github":"YES",
+            "github_url":"http://www.github.com/nepomunich",
+            "website": "YES",
+            "website_url": "http://www.journalisten-training.de",
+            "email":"YES",
+            "email_url":"post@berndoswald.de",
+            "pgp":"Key ID",
+            "pgp_url":"http://p80.pool.sks-keyservers.net/pks/lookup?op=get&search=0x659398E3F5AED47F",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Lecturer"
+            ],
+            "image_url": "res/img/bernd_oswald.png",
+            "twitter_url": "http://www.twitter.com/berndoswald",
+            "twitter": "YES"
+        },
+        {
+            "id": 144,
+            "title": "Adriana Homolova",
+            "name": "Homolova",
+            "firstname": "Adriana",
+            "country": "The Netherlands",
+            "city": "Amsterdam",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://ada.homolova.sk",
+            "email":"YES",
+            "email_url":"adriana@homolova.sk",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Designer",
+                "Researcher",
+                "Data Scientist"
+            ],
+            "image_url": "res/img/adriana_homolova.png",
+            "twitter_url": "http://www.twitter.com/naberacka",
+            "twitter": "YES"
         }
         
     ]
