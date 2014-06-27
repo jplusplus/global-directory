@@ -3845,6 +3845,34 @@
             "image_url": "res/img/mike_reilley.png",
             "twitter_url": "http://www.twitter.com/redlineproject",
             "twitter": "YES"
+        },
+        {
+            "id": 155,
+            "title": "Maarten Lambrechts",
+            "name": "Lambrechts",
+            "firstname": "Maarten",
+            "country": "Belgium",
+            "city": "Brussels",
+            "institution": "Mediafin",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.maartenlambrechts.be",
+            "email":"YES",
+            "email_url":"maartenzam@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor",
+                "Designer",
+                "GIS",
+                "Developer"
+            ],
+            "image_url": "res/img/maarten_lambrechts.png",
+            "twitter_url": "http://www.twitter.com/maartenzam",
+            "twitter": "YES"
         }
         
     ]
