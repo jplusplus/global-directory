@@ -3873,6 +3873,56 @@
             "image_url": "res/img/maarten_lambrechts.png",
             "twitter_url": "http://www.twitter.com/maartenzam",
             "twitter": "YES"
+        },
+        {
+            "id": 156,
+            "title": "Gary Dagorn",
+            "name": "Dagorn",
+            "firstname": "Gary",
+            "country": "France",
+            "city": "Caen",
+            "institution": "Ouest-France",
+            "github":"YES",
+            "github_url":"http://www.github.com/garydagorn",
+            "website": "YES",
+            "website_url": "http://www.garydagorn.fr",
+            "email":"YES",
+            "email_url":"gary.dagorn@yahoo.fr",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Designer",
+                "Developer"
+            ],
+            "image_url": "res/img/gary_dagorn.png",
+            "twitter_url": "http://www.twitter.com/garydagorn",
+            "twitter": "YES"
+        },
+        {
+            "id": 157,
+            "title": "Arnaud Wéry",
+            "name": "Wéry",
+            "firstname": "Arnaud",
+            "country": "Belgium",
+            "city": "Waremme",
+            "institution": "Huy",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://arnaudwery.wordpress.com",
+            "email":"YES",
+            "email_url":"petitkrole@hotmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/arnaud_wery.png",
+            "twitter_url": "http://www.twitter.com/arnaudwery",
+            "twitter": "YES"
         }
         
     ]
