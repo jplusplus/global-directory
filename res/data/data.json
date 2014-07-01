@@ -3923,6 +3923,56 @@
             "image_url": "res/img/arnaud_wery.png",
             "twitter_url": "http://www.twitter.com/arnaudwery",
             "twitter": "YES"
+        },
+        {
+            "id": 158,
+            "title": "Denis Rizzoli",
+            "name": "Rizzoli",
+            "firstname": "Denis",
+            "country": "Italy",
+            "city": "Milan",
+            "institution": "Freelance",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"rizzolidenis@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/denis_rizzoli.png",
+            "twitter_url": "http://www.twitter.com/dnsrzz",
+            "twitter": "YES"
+        },
+        {
+            "id": 159,
+            "title": "Miriam Forero Ariza",
+            "name": "Forero Ariza",
+            "firstname": "Miriam",
+            "country": "Colombia",
+            "city": "Bogota",
+            "institution": "Poderopedia Colombia",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"miriamforeroariza@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor",
+                "Lecturer"
+            ],
+            "image_url": "res/img/miriam_foreroariza.png",
+            "twitter_url": "http://www.twitter.com/Miriescribe",
+            "twitter": "YES"
         }
         
     ]
