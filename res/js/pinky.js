@@ -6,6 +6,7 @@ $(function(){
 
 var Pyk = {};
 var id_tags;
+var mapViewOn = false;
 
 Pyk.newsDiscovery = function(){
 
@@ -23,6 +24,7 @@ Pyk.newsDiscovery = function(){
         $.getJSON("res/data/data.json", function(json){
             that.data = json;
             that.initCrossfilter();
+            that.initMap();
             that.renderTags();
             that.initSearch();
         });                
@@ -175,7 +177,7 @@ Pyk.newsDiscovery = function(){
 
 
 
-       // GitHub
+        // GitHub
         var gg_tags = this._removeEmptyKeys(this.crossfilter.gg_dimension.group().all(), "gg");
         var gg_list = d3.select("#table5").selectAll("li").data(gg_tags);
        	gg_list.enter().append("li");
@@ -195,6 +197,8 @@ Pyk.newsDiscovery = function(){
         gg_list.exit().remove();
 
 
+		// Before rendering the Grid, we have to clear the layerGroup in the map instance in order to display new markers
+		clearLayers();
 
         // Title aka Full Name
         id_tags = this._removeEmptyKeys(this.crossfilter.id_dimension.group().all(), "id");
@@ -202,10 +206,11 @@ Pyk.newsDiscovery = function(){
         id_list.enter().append("li");
         id_list
             .html(function(d){
-                var a = that._findArticleById(d.key);
-                var link = "<a href='#'>" + a.title;
+                var article = that._findArticleById(d.key);
+                var link = "<a href='#'>" + article.title;
                 link += "<span class='badge'>" + d.value + "</span>";
-                link += "</a>";
+                link += "</a>";                              
+                
                 return link;
             })
             .classed("active", function(d){
@@ -214,8 +219,7 @@ Pyk.newsDiscovery = function(){
             .on("click", function(d){
                 that.filter("id", d.key);
             });
-        id_list.exit().remove();
-
+        id_list.exit().remove();		
 
         // Grid at the bottom
         d3.select("#grid").selectAll("li").remove();
@@ -223,27 +227,17 @@ Pyk.newsDiscovery = function(){
         grid_list.enter()
             .append("li")
             .html(function(d,i){
-                var a = that._findArticleById(d.key);
-                var container = $("<div/>").addClass("panel");
-                var front = $("<div/>").addClass("front");
-                var back  = $("<div/>").addClass("back");
-                front.html("<img class='thumbnail' src='"+a.image_url+"' width='117' height='130' /><br/>" + "<b>" + a.title + "</b>");
-                var back_content = "";
-                back_content += $("<div/>").addClass("name").html(a.title).get(0).outerHTML;
-                back_content += $("<div/>").addClass("institution").html(a.institution).get(0).outerHTML;
-                back_content += $("<div/>").addClass("city").html(a.city + ", " + a.country).get(0).outerHTML;
-                back_content += $("<div/>").addClass("pgp").html("PGP: " + '<a href="' + a.pgp_url + '" target="_self">' + a.pgp + "</a>").get(0).outerHTML;
-
-                back_content += $("<div/>").addClass("email").html("<br>" + '<i class="fa fa-envelope fa-lg"></i> ' + '<a href="' + "mailto:" + a.email_url + '">'  + a.email + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("twitter").html('<i class="fa fa-twitter fa-lg"></i> ' + '<a href="' + a.twitter_url + '" target="_blank">' + a.twitter + "</a>").get(0).outerHTML;    
-                back_content += $("<div/>").addClass("github").html('<i class="fa fa-github fa-lg"></i> ' + '<a href="' + a.github_url + '" target="_blank">' + a.github + "</a>").get(0).outerHTML;
-                back_content += $("<div/>").addClass("website").html('<i class="fa fa-globe fa-lg"></i> ' + '<a href="' + a.website_url + '" target="_blank">' + a.website + "</a>").get(0).outerHTML;    
-
-
-                back.html(back_content);
-                container.append(front);
-                container.append(back);
-                return container.get(0).outerHTML;
+                 
+                // Get full info                        
+                var article = that._findArticleById(d.key);   
+                
+                var lastOne = i==grid_list[0].length-1 ? true : false;                
+                
+         		// Place a marker on the map as well for each of the elements in the grid, specify if it is the last one to update map bounds.
+				codeAddressFromArticle(that,article,lastOne);                                                                                                  
+                
+                // Return the HTML of the Card for this article                         
+                return that._renderArticleCardHtml(article);
             })
             .on("mouseover", function(d){
                 $(this).find(".panel").addClass("flip");
@@ -251,6 +245,7 @@ Pyk.newsDiscovery = function(){
             .on("mouseout", function(d){
                 $(this).find(".panel").removeClass("flip");
             });
+            
         grid_list.exit().remove();
     };
 
@@ -322,10 +317,6 @@ Pyk.newsDiscovery = function(){
 
         this.renderTags();
     };
-
-    /*--------------------
-      HELPERS
-    --------------------*/
     
     // Defines method for search and typeahead.
     this.initSearch = function(){
@@ -380,8 +371,95 @@ Pyk.newsDiscovery = function(){
           $("#search").val("");
 	      	      
 	    });
+	    	    
+	    $('#mapToggle').click(function () { 
+			
+			mapViewOn = !mapViewOn;
+			
+			if (!mapViewOn){
+			
+				$('#mapToggle').text('Map View');
+				
+				$('#grid').show();
+				$('#map').hide();
+				
+			}else{
+			
+				$('#mapToggle').text('Grid View');
+				
+				$('#grid').hide();
+				$('#map').show();
+			}
+			
+	      	      
+	    });
     
     };
+    
+    // Defines method for search and typeahead.
+    this.initMap = function(){
+	    
+    	initializeMap();
+    	
+    	$('#map').hide();
+    }
+    
+     /*--------------------
+      HELPERS
+    --------------------*/
+    
+    // Generates the HTML content of the card representation of the articles on the grid
+    this._renderArticleCardHtml = function(article){
+    
+    	var container = $("<div/>").addClass("panel");
+        var front = $("<div/>").addClass("front");
+        var back  = $("<div/>").addClass("back");
+        front.html("<img class='thumbnail' src='"+article.image_url+"' width='117' height='130' /><br/>" + "<b>" + article.title + "</b>");
+        var back_content = "";
+        back_content += $("<div/>").addClass("name").html(article.title).get(0).outerHTML;
+        back_content += $("<div/>").addClass("institution").html(article.institution).get(0).outerHTML;
+        back_content += $("<div/>").addClass("city").html(article.city + ", " + article.country).get(0).outerHTML;
+        back_content += $("<div/>").addClass("pgp").html("PGP: " + '<a href="' + article.pgp_url + '" target="_self">' + article.pgp + "</a>").get(0).outerHTML;
+
+        back_content += $("<div/>").addClass("email").html("<br>" + '<i class="fa fa-envelope fa-lg"></i> ' + '<a href="' + "mailto:" + article.email_url + '">'  + article.email + "</a>").get(0).outerHTML;
+        back_content += $("<div/>").addClass("twitter").html('<i class="fa fa-twitter fa-lg"></i> ' + '<a href="' + article.twitter_url + '" target="_blank">' + article.twitter + "</a>").get(0).outerHTML;    
+        back_content += $("<div/>").addClass("github").html('<i class="fa fa-github fa-lg"></i> ' + '<a href="' + article.github_url + '" target="_blank">' + article.github + "</a>").get(0).outerHTML;
+        back_content += $("<div/>").addClass("website").html('<i class="fa fa-globe fa-lg"></i> ' + '<a href="' + article.website_url + '" target="_blank">' + article.website + "</a>").get(0).outerHTML;    
+
+        back.html(back_content);
+        container.append(front);
+        container.append(back);
+        
+        return container.get(0).outerHTML;
+    
+    }
+    
+    // Generates the HTML content of popups showed when clicking markers on the map
+    this._renderArticlePopupHtml = function(article){
+    
+    	var container = $("<div/>").addClass("popup");
+        var front = $("<div/>").addClass("front");
+        var back  = $("<div/>").addClass("back");
+        front.html("<img class='thumbnail' src='"+article.image_url+"' width='117' height='130' /><br/>" + "<b>" + article.title + "</b>");
+        
+        var back_content = "";
+        back_content += $("<div/>").addClass("name").html(article.title).get(0).outerHTML;
+        back_content += $("<div/>").addClass("institution").html(article.institution).get(0).outerHTML;
+        back_content += $("<div/>").addClass("city").html(article.city + ", " + article.country).get(0).outerHTML;
+        back_content += $("<div/>").addClass("pgp").html("PGP: " + '<a href="' + article.pgp_url + '" target="_self">' + article.pgp + "</a>").get(0).outerHTML;
+
+        back_content += $("<div/>").addClass("email").html("<br>" + '<i class="fa fa-envelope fa-lg"></i> ' + '<a href="' + "mailto:" + article.email_url + '">'  + article.email + "</a>").get(0).outerHTML;
+        back_content += $("<div/>").addClass("twitter").html('<i class="fa fa-twitter fa-lg"></i> ' + '<a href="' + article.twitter_url + '" target="_blank">' + article.twitter + "</a>").get(0).outerHTML;    
+        back_content += $("<div/>").addClass("github").html('<i class="fa fa-github fa-lg"></i> ' + '<a href="' + article.github_url + '" target="_blank">' + article.github + "</a>").get(0).outerHTML;
+        back_content += $("<div/>").addClass("website").html('<i class="fa fa-globe fa-lg"></i> ' + '<a href="' + article.website_url + '" target="_blank">' + article.website + "</a>").get(0).outerHTML;
+
+        back.html(back_content);
+        container.append(front);
+        container.append(back);
+        
+        return container.get(0).outerHTML;
+    
+    }
 
     this._isActiveFilter = function(d,e){
         var i = this.activeFilters[d].indexOf(e);
