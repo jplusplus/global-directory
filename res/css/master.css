@@ -225,7 +225,7 @@ body, html{
 /* Search styling */
 
 input.search-query {
-    padding-left:26px;
+    padding-left	 : 26px;
     color            : black;
     font-size        : 1.0em;
     font-family      : 'Titillium Web', sans-serif;

@@ -29,10 +29,16 @@
         <div class="row">
           <div class="col-sm-12">
           <!-- Button trigger modal -->
-			&nbsp;
-			<a href="#"><button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal">About</button></a>
+			
+      <form class="form-inline navbar-search" role="form">
+            <div class="form-group">
+            <input id="search" autocomplete="off" type="text" class="search-query span2 form-control" placeholder="Search directory">
+            </div> 
+            <button id="clear_search_btn" type="button" class="btn btn-default btn-sm"><i class="icon-remove-circle"></i> Clear</button>
+			<button id="mapToggle" type="button" class="btn btn-default btn-sm">Map View</button>
 			<a href="http://www.bit.ly/ddjform" target="_blank"><button type="button" class="btn btn-default btn-sm">Join the directory</button></a>
-      <button id="mapToggle" type="button" class="btn btn-default btn-sm">Map View</button>
+      <a href="#"><button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal">About</button></a>
+      
 			&nbsp;&nbsp;&nbsp;
             <div class="fa fa-globe fa-lg"></div> Global Data Journalists Directory
             &nbsp;&nbsp;
@@ -42,11 +48,7 @@
             
             
             
-            <form class="form-inline navbar-search pull-right" role="form">
-            <div class="form-group">
-            <input id="search" autocomplete="off" type="text" class="search-query span2 form-control" placeholder="Search directory">
-            </div> 
-            <button id="clear_search_btn" type="button" class="btn btn-default btn-sm"><i class="icon-remove-circle"></i> Clear</button>
+            
 			</form>
 	</nav>
 
