@@ -177,19 +177,20 @@
             "country": "France",
             "city": "Paris",
             "institution": "Journalism++",
-            "github":"N/A",
-            "github_url":"",
+            "github":"YES",
+            "github_url":"http://www.github.com/pirhoo",
             "website": "YES",
             "website_url": "http://www.pirhoo.com",
             "email":"YES",
             "email_url":"hello@pirhoo.com",
-            "pgp":"N/A",
-            "pgp_url":"",
+            "pgp":"0x4c4718e1",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0xFBC0594D4C4718E1",
             "skills": [
                 "Lecturer",
-                "Data Journalist"
+                "Data Journalist",
+                "Developer"
             ],
-            "image_url": "res/img/pierre_romera.png",
+            "image_url": "http://i.imgur.com/33SQMdm.jpg",
             "twitter_url": "http://www.twitter.com/pirhoo",
             "twitter": "YES"
         },
