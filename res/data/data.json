@@ -201,14 +201,14 @@
             "country": "France",
             "city": "Paris",
             "institution": "Journalism++",
-            "github":"N/A",
-            "github_url":"",
+            "github":"YES",
+            "github_url":"https://github.com/pbellon",
             "website": "N/A",
             "website_url": "",
             "email":"YES",
             "email_url":"bellon.pierre@gmail.com",
-            "pgp":"N/A",
-            "pgp_url":"",
+            "pgp":"A2A45B7D",
+            "pgp_url":"http://pool.sks-keyservers.net/pks/lookup?op=get&fingerprint=on&search=0x34C13BBBA2A45B7D",
             "skills": [
                 "Developer"
             ],
