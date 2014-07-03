@@ -25,8 +25,8 @@
         },
         {
             "type": "alphabetical",
-            "label": "github",
-            "name": "github"
+            "label": "github or bitbucket",
+            "name": "github/bitbucket"
         },
         {
             "type": "alphabetical",
