@@ -4129,6 +4129,57 @@
             "image_url": "res/img/perry_king.png",
             "twitter_url": "http://www.twitter.com/kingperry",
             "twitter": "YES"
+        },
+        {
+            "id": 166,
+            "title": "Olivia Rosenman",
+            "name": "Rosenman",
+            "firstname": "Olivia",
+            "country": "China",
+            "city": "Hong Kong",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"N/A",
+            "email_url":"",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Editor",
+                "Journalist",
+                "Researcher"
+            ],
+            "image_url": "res/img/olivia_rosenman.png",
+            "twitter_url": "http://www.twitter.com/olivesophierose",
+            "twitter": "YES"
+        },
+        {
+            "id": 167,
+            "title": "Lilia Saúl",
+            "name": "Saúl",
+            "firstname": "Lilia",
+            "country": "Mexico",
+            "city": "Mexico City",
+            "institution": "El Universal",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.eluniversal.com.mx/periodismo-datos",
+            "email":"YES",
+            "email_url":"liliasaul@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Editor",
+                "Journalist"
+            ],
+            "image_url": "res/img/lilia_saul.png",
+            "twitter_url": "http://www.twitter.com/liliasaul",
+            "twitter": "YES"
         }
         
     ]
