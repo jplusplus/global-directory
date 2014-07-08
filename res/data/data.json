@@ -4269,6 +4269,31 @@
             "image_url": "res/img/asha_phillips.png",
             "twitter_url": "http://www.twitter.com/ashaphillips",
             "twitter": "YES"
+        },
+        {
+            "id": 170,
+            "title": "Ricardo Lafuente",
+            "name": "Lafuente",
+            "firstname": "Ricardo",
+            "country": "Portugal",
+            "city": "Porto",
+            "institution": "Journalism++ Porto",
+            "github":"YES",
+            "github_url":"http://www.github.com/rlafuente",
+            "website": "YES",
+            "website_url": "http://www.jplusplus.pt",
+            "email":"YES",
+            "email_url":"ricardo@jplusplus.org",
+            "pgp":"4ED3B114",
+            "pgp_url":"https://hkps.pool.sks-keyservers.net/pks/lookup?op=get&search=0x4ED3B114",
+            "skills": [
+                "Developer",
+                "Designer",
+                "Lecturer"
+            ],
+            "image_url": "res/img/ricardo_lafuente.png",
+            "twitter_url": "http://www.twitter.com/rlaf",
+            "twitter": "YES"
         }
         
     ]
