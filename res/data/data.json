@@ -4294,6 +4294,31 @@
             "image_url": "res/img/ricardo_lafuente.png",
             "twitter_url": "http://www.twitter.com/rlaf",
             "twitter": "YES"
+        },
+        {
+            "id": 171,
+            "title": "Konrad Weber",
+            "name": "Weber",
+            "firstname": "Konrad",
+            "country": "Switzerland",
+            "city": "Zurich",
+            "institution": "SRF",
+            "github":"YES",
+            "github_url":"http://www.github.com/konradweber",
+            "website": "YES",
+            "website_url": "http://www.konradweber.ch",
+            "email":"YES",
+            "email_url":"info@konradweber.ch",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/konrad_weber.png",
+            "twitter_url": "http://www.twitter.com/konradweber",
+            "twitter": "YES"
         }
         
     ]
