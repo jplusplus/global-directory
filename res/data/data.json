@@ -4319,6 +4319,32 @@
             "image_url": "res/img/konrad_weber.png",
             "twitter_url": "http://www.twitter.com/konradweber",
             "twitter": "YES"
+        },
+        {
+            "id": 172,
+            "title": "Oleg Gant",
+            "name": "Gant",
+            "firstname": "Oleg",
+            "country": "Russia",
+            "city": "Moscow",
+            "institution": "TeplitsaST",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://te-st.ru",
+            "email":"YES",
+            "email_url":"oleg.gant@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor",
+                "Lecturer"
+            ],
+            "image_url": "res/img/oleg_gant.png",
+            "twitter_url": "http://www.twitter.com/newreporter_org",
+            "twitter": "YES"
         }
         
     ]
