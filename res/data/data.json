@@ -4345,6 +4345,30 @@
             "image_url": "res/img/oleg_gant.png",
             "twitter_url": "http://www.twitter.com/newreporter_org",
             "twitter": "YES"
+        },
+        {
+            "id": 173,
+            "title": "Nelly Luna",
+            "name": "Luna",
+            "firstname": "Nelly",
+            "country": "Peru",
+            "city": "Lima",
+            "institution": "Ojo Público",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"nellyluna10@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/nelly_luna.png",
+            "twitter_url": "http://www.twitter.com/nellylun",
+            "twitter": "YES"
         }
         
     ]
