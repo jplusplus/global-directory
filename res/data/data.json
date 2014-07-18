@@ -4683,6 +4683,33 @@
             "image_url": "res/img/jeremy_rue.png",
             "twitter_url": "http://www.twitter.com/jrue",
             "twitter": "YES"
+        },
+        {
+            "id": 4815,
+            "title": "Peter Aldhous",
+            "name": "Aldhous",
+            "firstname": "Peter",
+            "country": "United States",
+            "city": "San Francisco",
+            "institution": "Freelance",
+            "github":"YES",
+            "github_url":"http://www.github.com/paldhous",
+            "website": "YES",
+            "website_url": "http://www.peteraldhous.com",
+            "email":"YES",
+            "email_url":"peter@peteraldhous.com",
+            "pgp":"9CB29B16",
+            "pgp_url":"https://pgp.mit.edu/pks/lookup?op=get&search=0xB96EBF7D9CB29B16",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Lecturer",
+                "Editor",
+                "GIS"
+            ],
+            "image_url": "res/img/peter_aldhous.png",
+            "twitter_url": "http://www.twitter.com/paldhous",
+            "twitter": "YES"
         }
         
     ]
