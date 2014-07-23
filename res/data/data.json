@@ -4710,6 +4710,29 @@
             "image_url": "res/img/peter_aldhous.png",
             "twitter_url": "http://www.twitter.com/paldhous",
             "twitter": "YES"
+        },
+        {
+            "id": 4814,
+            "title": "Daniel Villatoro",
+            "name": "Villatoro",
+            "firstname": "Daniel",
+            "country": "Guatemala",
+            "city": "Guatemala City",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"villatorodany@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist"
+            ],
+            "image_url": "res/img/daniel_villatoro.png",
+            "twitter_url": "http://www.twitter.com/danyvillatoro",
+            "twitter": "YES"
         }
         
     ]
