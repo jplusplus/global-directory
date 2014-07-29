@@ -4733,6 +4733,55 @@
             "image_url": "res/img/daniel_villatoro.png",
             "twitter_url": "http://www.twitter.com/danyvillatoro",
             "twitter": "YES"
+        },
+        {
+            "id": 4813,
+            "title": "Joe Wertz",
+            "name": "Wertz",
+            "firstname": "Joe",
+            "country": "United States",
+            "city": "Oklahoma City",
+            "institution": "StateImpact Oklahoma",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://stateimpact.npr.org/oklahoma",
+            "email":"YES",
+            "email_url":"joewertz@gmail.com",
+            "pgp":"Key ID",
+            "pgp_url":"http://pastebin.com/xuXNFdFV",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/joe_wertz.png",
+            "twitter_url": "http://www.twitter.com/joewertz",
+            "twitter": "YES"
+        },
+        {
+            "id": 4812,
+            "title": "Alexandre Haederli",
+            "name": "Haederli",
+            "firstname": "Alexandre",
+            "country": "Switzerland",
+            "city": "Berne",
+            "institution": "Le Matin Dimanche",
+            "github":"YES",
+            "github_url":"http://www.github.com/alexhaed",
+            "website": "YES",
+            "website_url": "http://www.haederli.me",
+            "email":"YES",
+            "email_url":"alexandre.haederli@lematindimanche.ch",
+            "pgp":"4F8817C3",
+            "pgp_url":"https://pgp.mit.edu/pks/lookup?op=vindex&search=0x340E2F694F8817C3",
+            "skills": [
+                "Data Journalist",
+                "Journalist"
+            ],
+            "image_url": "res/img/alexandre_haederli.png",
+            "twitter_url": "http://www.twitter.com/alexhaederli",
+            "twitter": "YES"
         }
         
     ]
