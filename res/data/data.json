@@ -4782,6 +4782,31 @@
             "image_url": "res/img/alexandre_haederli.png",
             "twitter_url": "http://www.twitter.com/alexhaederli",
             "twitter": "YES"
+        },
+        {
+            "id": 4811,
+            "title": "Thomas Preusse",
+            "name": "Preusse",
+            "firstname": "Thomas",
+            "country": "Switzerland",
+            "city": "Zurich",
+            "institution": "Neue Zürcher Zeitung",
+            "github":"YES",
+            "github_url":"http://www.github.com/tpreusse",
+            "website": "YES",
+            "website_url": "http://t.preus.se/",
+            "email":"YES",
+            "email_url":"thomas.preusse@nzz.ch",
+            "pgp":"1FBF8F89",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0x4DF018951FBF8F89",
+            "skills": [
+                "Data Journalist",
+                "Developer",
+                "GIS"
+            ],
+            "image_url": "res/img/thomas_preusse.png",
+            "twitter_url": "http://www.twitter.com/tpreusse",
+            "twitter": "YES"
         }
         
     ]
