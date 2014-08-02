@@ -4807,6 +4807,32 @@
             "image_url": "res/img/thomas_preusse.png",
             "twitter_url": "http://www.twitter.com/tpreusse",
             "twitter": "YES"
+        },
+        {
+            "id": 4810,
+            "title": "Miriam Jemio",
+            "name": "Jemio",
+            "firstname": "Miriam",
+            "country": "Bolivia",
+            "city": "La Paz",
+            "institution": "Revista Herencia",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://impactoecoambiental.blogspot.com",
+            "email":"YES",
+            "email_url":"telmajemio@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Editor",
+                "Researcher"
+            ],
+            "image_url": "res/img/miriam_jemio.png",
+            "twitter_url": "http://www.twitter.com/Miriamjemio",
+            "twitter": "YES"
         }
         
     ]
