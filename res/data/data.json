@@ -4833,6 +4833,31 @@
             "image_url": "res/img/miriam_jemio.png",
             "twitter_url": "http://www.twitter.com/Miriamjemio",
             "twitter": "YES"
+        },
+        {
+            "id": 4809,
+            "title": "Jeremy Chapman",
+            "name": "Chapman",
+            "firstname": "Jeremy",
+            "country": "United States",
+            "city": "Billings",
+            "institution": "Montana Center for Investigative Reporting",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.mtcir.org",
+            "email":"YES",
+            "email_url":"news@mtcir.org",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Journalist",
+                "Researcher"
+            ],
+            "image_url": "res/img/jeremy_chapman.png",
+            "twitter_url": "http://www.twitter.com/InvestigateMT",
+            "twitter": "YES"
         }
         
     ]
