@@ -4882,6 +4882,29 @@
             "image_url": "res/img/maureen_linke.png",
             "twitter_url": "http://www.twitter.com/maureenlinke",
             "twitter": "YES"
+        },
+        {
+            "id": 4807,
+            "title": "Edouard Richard",
+            "name": "Richard",
+            "firstname": "Edouard",
+            "country": "France",
+            "city": "Paris",
+            "institution": "Journalism++",
+            "github":"YES",
+            "github_url":"http://www.github.com/vied12",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"edou4rd@gmail.com",
+            "pgp":"0x9F6A2B50",
+            "pgp_url":"http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0xAC18CEF39F6A2B50",
+            "skills": [
+                "Developer"
+            ],
+            "image_url": "res/img/edouard_richard.png",
+            "twitter_url": "http://www.twitter.com/vied12",
+            "twitter": "YES"
         }
         
     ]
