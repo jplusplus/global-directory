@@ -4858,6 +4858,30 @@
             "image_url": "res/img/jeremy_chapman.png",
             "twitter_url": "http://www.twitter.com/InvestigateMT",
             "twitter": "YES"
+        },
+        {
+            "id": 4808,
+            "title": "Maureen Linke",
+            "name": "Linke",
+            "firstname": "Maureen",
+            "country": "United States",
+            "city": "Arlington",
+            "institution": "Associated Press",
+            "github":"YES",
+            "github_url":"http://www.github.com/maureenlinke",
+            "website": "YES",
+            "website_url": "http://www.maureenlinke.com",
+            "email":"YES",
+            "email_url":"maureenlinke@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Developer"
+            ],
+            "image_url": "res/img/maureen_linke.png",
+            "twitter_url": "http://www.twitter.com/maureenlinke",
+            "twitter": "YES"
         }
         
     ]
