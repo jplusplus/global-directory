@@ -4905,6 +4905,32 @@
             "image_url": "res/img/edouard_richard.png",
             "twitter_url": "http://www.twitter.com/vied12",
             "twitter": "YES"
+        },
+        {
+            "id": 4806,
+            "title": "Tom Meagher",
+            "name": "Meagher",
+            "firstname": "Tom",
+            "country": "United States",
+            "city": "New York",
+            "institution": "The Marshall Project",
+            "github":"YES",
+            "github_url":"http://www.github.com/tommeagher",
+            "website": "YES",
+            "website_url": "http://www.tommeagher.com",
+            "email":"YES",
+            "email_url":"tommeagher@gmail.com",
+            "pgp":"0x9dab58d8",
+            "pgp_url":"http://pgp.mit.edu/pks/lookup?op=get&search=0xCB0BDD469DAB58D8",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Editor",
+                "GIS"
+            ],
+            "image_url": "res/img/tom_meagher.png",
+            "twitter_url": "http://www.twitter.com/ultracasual",
+            "twitter": "YES"
         }
         
     ]
