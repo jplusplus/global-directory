@@ -4931,6 +4931,34 @@
             "image_url": "res/img/tom_meagher.png",
             "twitter_url": "http://www.twitter.com/ultracasual",
             "twitter": "YES"
+        },
+        {
+            "id": 4805,
+            "title": "Stanislaw M. Stanuch",
+            "name": "Stanuch",
+            "firstname": "Stanislaw M.",
+            "country": "Poland",
+            "city": "Kraków",
+            "institution": "małopolskie",
+            "github":"YES",
+            "github_url":"http://www.github.com/sms1962",
+            "website": "YES",
+            "website_url": "http://www.dziennikarz.pl",
+            "email":"YES",
+            "email_url":"sms@dziennikarz.pl",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Data Scientist",
+                "Lecturer",
+                "Statistician",
+                "GIS"
+            ],
+            "image_url": "res/img/stanislaw_m_stanuch.png",
+            "twitter_url": "http://www.twitter.com/dziennikarz",
+            "twitter": "YES"
         }
         
     ]
