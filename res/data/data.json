@@ -5034,6 +5034,29 @@
             "image_url": "res/img/vanessa_wormer.png",
             "twitter_url": "http://www.twitter.com/remrow",
             "twitter": "YES"
+        },
+        {
+            "id": 4801,
+            "title": "Jeremia Kimelman",
+            "name": "Kimelman",
+            "firstname": "Jeremia",
+            "country": "United States",
+            "city": "San Francisco",
+            "institution": "Code for America",
+            "github":"YES",
+            "github_url":"http://www.github.com/jeremiak",
+            "website": "YES",
+            "website_url": "http://www.jeremiak.com",
+            "email":"YES",
+            "email_url":"jeremia@codeforamerica.org",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Developer"
+            ],
+            "image_url": "res/img/jeremia_kimelman.png",
+            "twitter_url": "http://www.twitter.com/jeremiak",
+            "twitter": "YES"
         }
         
     ]
