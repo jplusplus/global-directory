@@ -5057,6 +5057,31 @@
             "image_url": "res/img/jeremia_kimelman.png",
             "twitter_url": "http://www.twitter.com/jeremiak",
             "twitter": "YES"
+        },
+        {
+            "id": 4800,
+            "title": "Tom Cardoso",
+            "name": "Cardoso",
+            "firstname": "Tom",
+            "country": "Canada",
+            "city": "Toronto",
+            "institution": "The Globe and Mail",
+            "github":"YES",
+            "github_url":"http://www.github.com/tomcardoso",
+            "website": "YES",
+            "website_url": "http://www.tomcardoso.com",
+            "email":"YES",
+            "email_url":"tcardoso@globeandmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Designer",
+                "Developer"
+            ],
+            "image_url": "res/img/tom_cardoso.png",
+            "twitter_url": "http://www.twitter.com/tom_cardoso",
+            "twitter": "YES"
         }
         
     ]
