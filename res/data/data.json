@@ -4959,6 +4959,81 @@
             "image_url": "res/img/stanislaw_m_stanuch.png",
             "twitter_url": "http://www.twitter.com/dziennikarz",
             "twitter": "YES"
+        },
+        {
+            "id": 4804,
+            "title": "Julien Gathelier",
+            "name": "Gathelier",
+            "firstname": "Julien",
+            "country": "United States",
+            "city": "New York",
+            "institution": "Freelance",
+            "github":"YES",
+            "github_url":"http://www.github.com/juliengathelier",
+            "website": "YES",
+            "website_url": "http://www.juliengathelier.com",
+            "email":"YES",
+            "email_url":"julien.gathelier@gmail.com",
+            "pgp":"6B5E5B09",
+            "pgp_url":"https://pgp.mit.edu/pks/lookup?op=get&search=0x298E91EE6B5E5B09",
+            "skills": [
+                "Journalist",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/julien_gathelier.png",
+            "twitter_url": "http://www.twitter.com/JulienGathelier",
+            "twitter": "YES"
+        },
+        {
+            "id": 4803,
+            "title": "Leonard Wallentin",
+            "name": "Wallentin",
+            "firstname": "Leonard",
+            "country": "Sweden",
+            "city": "Stockholm",
+            "institution": "N/A",
+            "github":"YES",
+            "github_url":"http://www.github.com/rotsee",
+            "website": "YES",
+            "website_url": "http://www.leowallentin.se",
+            "email":"YES",
+            "email_url":"mejl@leowallentin.se",
+            "pgp":"A5BDD6A5",
+            "pgp_url":"https://pgp.mit.edu/pks/lookup?op=get&search=0x04F37923A5BDD6A5",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Editor",
+                "Researcher"
+            ],
+            "image_url": "res/img/leonard_wallentin.png",
+            "twitter_url": "http://www.twitter.com/leo_wallentin",
+            "twitter": "YES"
+        },
+        {
+            "id": 4802,
+            "title": "Vanessa Wormer",
+            "name": "Wormer",
+            "firstname": "Vanessa",
+            "country": "Germany",
+            "city": "Heilbronn",
+            "institution": "Heilbronner Stimme",
+            "github":"YES",
+            "github_url":"http://www.github.com/vwormer",
+            "website": "YES",
+            "website_url": "http://hashtagdigilab.tumblr.com",
+            "email":"YES",
+            "email_url":"vanessawormer@gmail.com",
+            "pgp":"Key ID",
+            "pgp_url":"https://keybase.io/remrow",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/vanessa_wormer.png",
+            "twitter_url": "http://www.twitter.com/remrow",
+            "twitter": "YES"
         }
         
     ]
