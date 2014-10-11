@@ -5082,6 +5082,30 @@
             "image_url": "res/img/tom_cardoso.png",
             "twitter_url": "http://www.twitter.com/tom_cardoso",
             "twitter": "YES"
+        },
+        {
+            "id": 4799,
+            "title": "John Heasly",
+            "name": "Heasly",
+            "firstname": "John",
+            "country": "United States",
+            "city": "Eugene",
+            "institution": "The Register-Guard",
+            "github":"YES",
+            "github_url":"http://www.github.com/jheasly",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"jheasly@earthlink.net",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Editor",
+                "Developer"
+            ],
+            "image_url": "res/img/john_heasly.png",
+            "twitter_url": "http://www.twitter.com/jpheasly",
+            "twitter": "YES"
         }
         
     ]
