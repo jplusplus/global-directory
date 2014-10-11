@@ -4866,7 +4866,7 @@
             "firstname": "Maureen",
             "country": "United States",
             "city": "Arlington (US-VA)",
-            "institution": "Associated Press",
+            "institution": "The Associated Press",
             "github":"YES",
             "github_url":"http://www.github.com/maureenlinke",
             "website": "YES",
@@ -5105,6 +5105,33 @@
             ],
             "image_url": "res/img/john_heasly.png",
             "twitter_url": "http://www.twitter.com/jpheasly",
+            "twitter": "YES"
+        },
+        {
+            "id": 4798,
+            "title": "Troy Thibodeaux",
+            "name": "Thibodeaux",
+            "firstname": "Troy",
+            "country": "United States",
+            "city": "New Orleans",
+            "institution": "The Associated Press",
+            "github":"YES",
+            "github_url":"http://www.github.com/tthibo",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"tthibodeaux@ap.org",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Editor",
+                "Developer",
+                "Lecturer"
+            ],
+            "image_url": "res/img/troy_thibodeaux.png",
+            "twitter_url": "http://www.twitter.com/tthibo",
             "twitter": "YES"
         }
         
