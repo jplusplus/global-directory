@@ -5158,6 +5158,29 @@
             "image_url": "res/img/michael_mott.png",
             "twitter_url": "http://www.twitter.com/mikewmott",
             "twitter": "YES"
+        },
+        {
+            "id": 4796,
+            "title": "MaryJo Webster",
+            "name": "Webster",
+            "firstname": "MaryJo",
+            "country": "United States",
+            "city": "Minneapolis",
+            "institution": "N/A",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"mjwebster71@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist"
+            ],
+            "image_url": "res/img/maryjo_webster.png",
+            "twitter_url": "http://www.twitter.com/maryjowebster",
+            "twitter": "YES"
         }
         
     ]
