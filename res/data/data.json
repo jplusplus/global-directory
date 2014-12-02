@@ -5181,6 +5181,31 @@
             "image_url": "res/img/maryjo_webster.png",
             "twitter_url": "http://www.twitter.com/maryjowebster",
             "twitter": "YES"
+        },
+        {
+            "id": 4795,
+            "title": "Sandra Crucianelli",
+            "name": "Crucianelli",
+            "firstname": "Sandra",
+            "country": "Argentina",
+            "city": "Bahia Blanca",
+            "institution": "ICFJ",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.sololocal.info",
+            "email":"YES",
+            "email_url":"sandracrucianelli@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Researcher",
+                "Trainer"
+            ],
+            "image_url": "res/img/sandra_crucianelli.png",
+            "twitter_url": "http://www.twitter.com/spcrucianelli",
+            "twitter": "YES"
         }
         
     ]
