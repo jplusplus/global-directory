@@ -5206,6 +5206,34 @@
             "image_url": "res/img/sandra_crucianelli.png",
             "twitter_url": "http://www.twitter.com/spcrucianelli",
             "twitter": "YES"
+        },
+        {
+            "id": 4794,
+            "title": "Adolfo Antón Bravo",
+            "name": "Antón Bravo",
+            "firstname": "Adolfo",
+            "country": "Spain",
+            "city": "Madrid",
+            "institution": "Infotics",
+            "github":"YES",
+            "github_url":"http://www.github.com/flowsta",
+            "website": "YES",
+            "website_url": "http://www.infotics.es",
+            "email":"YES",
+            "email_url":"adolflow@gmail.com",
+            "pgp":"B7087F94",
+            "pgp_url":"http://keyserver.stack.nl/pks/lookup?op=index&search=0xB7087F94",
+            "skills": [
+                "Data Journalist",
+                "Researcher",
+                "Editor",
+                "Designer",
+                "Researcher",
+                "Lecturer"
+            ],
+            "image_url": "res/img/adolfo_bravo.png",
+            "twitter_url": "http://www.twitter.com/adolflow",
+            "twitter": "YES"
         }
         
     ]
