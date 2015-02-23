@@ -4999,12 +4999,14 @@
             "email":"YES",
             "email_url":"mejl@leowallentin.se",
             "pgp":"A5BDD6A5",
-            "pgp_url":"https://pgp.mit.edu/pks/lookup?op=get&search=0x04F37923A5BDD6A5",
+            "pgp_url":"http://leowallentin.se/mejl-at-leowallentin-se.asc",
             "skills": [
                 "Journalist",
                 "Data Journalist",
                 "Editor",
-                "Researcher"
+                "Researcher",
+                "Concept Developer",
+                "GIS"
             ],
             "image_url": "res/img/leonard_wallentin.png",
             "twitter_url": "http://www.twitter.com/leo_wallentin",
