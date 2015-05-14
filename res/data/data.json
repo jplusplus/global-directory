@@ -5236,6 +5236,34 @@
             "image_url": "res/img/adolfo_bravo.png",
             "twitter_url": "http://www.twitter.com/adolflow",
             "twitter": "YES"
+        },
+        {
+            "id": 4793,
+            "title": "Melih Cilga",
+            "name": "Cilga",
+            "firstname": "Melih",
+            "country": "Turkey",
+            "city": "Istanbul",
+            "institution": "Platform for Independent Journalism (P24)",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "https://medium.com/@melihcilga",
+            "email":"YES",
+            "email_url":"melihcilga@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Researcher",
+                "Editor",
+                "Journalist",
+                "Researcher",
+                "Lecturer"
+            ],
+            "image_url": "res/img/melih_cilga.png",
+            "twitter_url": "http://www.twitter.com/melihcilga",
+            "twitter": "YES"
         }
         
     ]
