@@ -5264,6 +5264,33 @@
             "image_url": "res/img/melih_cilga.png",
             "twitter_url": "http://www.twitter.com/melihcilga",
             "twitter": "YES"
+        },
+        {
+            "id": 4792,
+            "title": "Ola Samzelius",
+            "name": "Samzelius",
+            "firstname": "Ola",
+            "country": "Sweden",
+            "city": "Stockholm",
+            "institution": "UNT",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.datajournalisten.se",
+            "email":"YES",
+            "email_url":"osmprod@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist",
+                "Researcher",
+                "Editor",
+                "Journalist",
+                "Researcher"
+            ],
+            "image_url": "res/img/ola_samzelius.png",
+            "twitter_url": "http://www.twitter.com/olasamzelius",
+            "twitter": "YES"
         }
         
     ]
