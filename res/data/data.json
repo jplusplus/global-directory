@@ -5291,6 +5291,33 @@
             "image_url": "res/img/ola_samzelius.png",
             "twitter_url": "http://www.twitter.com/olasamzelius",
             "twitter": "YES"
+        },
+        {
+            "id": 4791,
+            "title": "Martín González",
+            "name": "González",
+            "firstname": "Martín",
+            "country": "Spain",
+            "city": "Barcelona",
+            "institution": "Freelance",
+            "github":"YES",
+            "github_url":"https://github.com/martgnz",
+            "website": "YES",
+            "website_url": "https://www.martingonzalez.net",
+            "email":"YES",
+            "email_url":"m@martingonzalez.net",
+            "pgp":"924CCA29",
+            "pgp_url":"https://martingonzalez.net/assets/key.asc",
+            "skills": [
+                "Data Journalist",
+                "Designer",
+                "Developer",
+                "Journalist",
+                "GIS"
+            ],
+            "image_url": "res/img/martin_gonzalez.png",
+            "twitter_url": "https://www.twitter.com/martgnz",
+            "twitter": "YES"
         }
         
     ]
