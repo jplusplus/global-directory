@@ -5344,6 +5344,30 @@
             "image_url": "res/img/mina_demian.png",
             "twitter_url": "http://www.twitter.com/minaddotcom",
             "twitter": "YES"
+        },
+        {
+            "id": 4789,
+            "title": "Daichi Ito",
+            "name": "Ito",
+            "firstname": "Daichi",
+            "country": "Japan",
+            "city": "Tokyo",
+            "institution": "The Huffington Post Japan",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.huffingtonpost.jp",
+            "email":"YES",
+            "email_url":"daichi.ito@huffingtonpost.jp",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/daichi_ito.png",
+            "twitter_url": "http://www.twitter.com/daichi",
+            "twitter": "YES"
         }
         
     ]
