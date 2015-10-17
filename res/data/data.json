@@ -5368,6 +5368,31 @@
             "image_url": "res/img/daichi_ito.png",
             "twitter_url": "http://www.twitter.com/daichi",
             "twitter": "YES"
+        },
+        {
+            "id": 4788,
+            "title": "Nolan Markham",
+            "name": "Markham",
+            "firstname": "Nolan",
+            "country": "United States",
+            "city": "New York City",
+            "institution": "Vocativ",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.vocativ.com",
+            "email":"YES",
+            "email_url":"markham.nolan@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Editor"
+            ],
+            "image_url": "res/img/nolan_markham.png",
+            "twitter_url": "http://www.twitter.com/markham",
+            "twitter": "YES"
         }
         
     ]
