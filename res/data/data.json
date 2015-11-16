@@ -5418,6 +5418,30 @@
             "image_url": "res/img/annabel_church.png",
             "twitter_url": "http://www.twitter.com/annabelchurch",
             "twitter": "YES"
+        },
+        {
+            "id": 4786,
+            "title": "Winnie Kamau",
+            "name": "Kamau",
+            "firstname": "Winnie",
+            "country": "Kenya",
+            "city": "Nairobi",
+            "institution": "Africa Data Journalists Network",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://africadatajournalism.blogspot.de/",
+            "email":"YES",
+            "email_url":"kamawinnie@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Editor",
+                "Data Journalist"
+            ],
+            "image_url": "res/img/winnie_kamau.png",
+            "twitter_url": "http://www.twitter.com/WinnieKamau254",
+            "twitter": "YES"
         }
         
     ]
