@@ -5442,6 +5442,29 @@
             "image_url": "res/img/winnie_kamau.png",
             "twitter_url": "http://www.twitter.com/WinnieKamau254",
             "twitter": "YES"
+        },
+        {
+            "id": 4785,
+            "title": "Tolga Celik",
+            "name": "Celik",
+            "firstname": "Tolga",
+            "country": "Izmir",
+            "city": "Turkey",
+            "institution": "Ege University",
+            "github":"N/A",
+            "github_url":"",
+            "website": "N/A",
+            "website_url": "",
+            "email":"YES",
+            "email_url":"tolcelik@gmail.com",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Lecturer"
+            ],
+            "image_url": "res/img/tolga_celik.png",
+            "twitter_url": "http://www.twitter.com/celiktolga",
+            "twitter": "YES"
         }
         
     ]
