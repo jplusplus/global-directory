@@ -5448,8 +5448,8 @@
             "title": "Tolga Celik",
             "name": "Celik",
             "firstname": "Tolga",
-            "country": "Izmir",
-            "city": "Turkey",
+            "country": "Turkey",
+            "city": "Izmir",
             "institution": "Ege University",
             "github":"N/A",
             "github_url":"",
@@ -5464,6 +5464,35 @@
             ],
             "image_url": "res/img/tolga_celik.png",
             "twitter_url": "http://www.twitter.com/celiktolga",
+            "twitter": "YES"
+        },
+        {
+            "id": 4784,
+            "title": "Justin Myers",
+            "name": "Myers",
+            "firstname": "Justin",
+            "country": "Brooklyn (US-VA)",
+            "city": "United States",
+            "institution": "The Associated Press",
+            "github":"YES",
+            "github_url":"http://github.com/myersjustinc",
+            "website": "YES",
+            "website_url": "http://www.justinmyers.net",
+            "email":"YES",
+            "email_url":"justin@justinmyers.net",
+            "pgp":"0xDBCE2CD7D0E2F991",
+            "pgp_url":"https://hkps.pool.sks-keyservers.net/pks/lookup?op=get&search=0xDBCE2CD7D0E2F991",
+            "skills": [
+                "Journalist",
+                "Data Journalist",
+                "Designer",
+                "GIS",
+                "Developer",
+                "Editor",
+                "Researcher"
+            ],
+            "image_url": "res/img/justin_myers.png",
+            "twitter_url": "http://www.twitter.com/myersjustinc",
             "twitter": "YES"
         }
         
