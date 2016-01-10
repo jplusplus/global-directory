@@ -5495,6 +5495,29 @@
             "image_url": "res/img/justin_myers.png",
             "twitter_url": "http://www.twitter.com/myersjustinc",
             "twitter": "YES"
+        },
+        {
+            "id": 4783,
+            "title": "Julius Tröger",
+            "name": "Tröger",
+            "firstname": "Julius",
+            "country": "Germany",
+            "city": "Berlin",
+            "institution": "Berliner Morgenpost",
+            "github":"N/A",
+            "github_url":"",
+            "website": "YES",
+            "website_url": "http://www.digitalerwandel.de",
+            "email":"YES",
+            "email_url":"julius.troeger@morgenpost.de",
+            "pgp":"N/A",
+            "pgp_url":"",
+            "skills": [
+                "Data Journalist"
+            ],
+            "image_url": "res/img/julius_troeger.png",
+            "twitter_url": "http://www.twitter.com/juliustroeger",
+            "twitter": "YES"
         }
         
     ]
