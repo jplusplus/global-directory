@@ -18,7 +18,7 @@
             "pgp":"N/A",
             "pgp_url":"",
             "skills": [
-                "Data Journalist", 
+                "Data Journalist",
                 "Designer"
             ],
             "image_url": "res/img/yordi_dam.png",
@@ -331,7 +331,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/karsten_hufer.png",
             "twitter_url": "http://www.twitter.com/karstenhufer",
@@ -384,8 +384,8 @@
                 "Researcher",
                 "Lecturer",
                 "Developer"
-                
-                
+
+
             ],
             "image_url": "res/img/markus_mandalka.png",
             "twitter_url": "http://www.twitter.com/M_Mandalka",
@@ -410,7 +410,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/frederic_sallet.png",
             "twitter_url": "http://www.twitter.com/Fred_Sudouest",
@@ -435,7 +435,7 @@
             "skills": [
                 "Data Journalist",
                 "Developer"
-                
+
             ],
             "image_url": "res/img/erik_willems.png",
             "twitter_url": "http://www.twitter.com/ehwillems",
@@ -557,7 +557,7 @@
                 "Journalist",
                 "Researcher",
                 "Lecturer"
-                
+
             ],
             "image_url": "res/img/marcelo_soares.png",
             "twitter_url": "http://www.twitter.com/msoares",
@@ -583,7 +583,7 @@
                 "Data Journalist",
                 "Developer",
                 "Designer"
-                
+
             ],
             "image_url": "res/img/steffen_kuehne.png",
             "twitter_url": "http://www.twitter.com/stekhn",
@@ -660,7 +660,7 @@
                 "Researcher",
                 "Developer",
                 "Designer"
-                
+
             ],
             "image_url": "res/img/mona_chalabi.png",
             "twitter_url": "http://www.twitter.com/MonaChalabi",
@@ -730,7 +730,7 @@
             "pgp":"N/A",
             "pgp_url":"",
             "skills": [
-                
+
                 "Data Journalist",
                 "Journalist",
                 "Researcher",
@@ -808,7 +808,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/patricia_munoz.png",
             "twitter_url": "",
@@ -831,12 +831,12 @@
             "pgp":"N/A",
             "pgp_url":"",
             "skills": [
-                
+
                 "Data Journalist",
                 "Researcher",
                 "Developer",
                 "Designer"
-                
+
             ],
             "image_url": "res/img/chris_walker.png",
             "twitter_url": "http://www.twitter.com/cpwalker07",
@@ -862,8 +862,8 @@
                 "Data Journalist",
                 "Developer",
                 "Designer"
-                
-                
+
+
             ],
             "image_url": "res/img/haoyun_su.png",
             "twitter_url": "http://www.twitter.com/haoyunsu",
@@ -888,7 +888,7 @@
             "skills": [
                 "Data Journalist",
                 "Trainer"
-                
+
             ],
             "image_url": "res/img/jonathan_stoneman.png",
             "twitter_url": "http://www.twitter.com/stonepeople",
@@ -988,8 +988,8 @@
                 "Researcher",
                 "Developer",
                 "Designer"
-                
-                
+
+
             ],
             "image_url": "res/img/justin_myers.png",
             "twitter_url": "http://www.twitter.com/myersjustinc",
@@ -1165,7 +1165,7 @@
             "skills": [
                 "Journalist",
                 "Photographer"
-                
+
             ],
             "image_url": "res/img/stephane_goue.png",
             "twitter_url": "",
@@ -1197,31 +1197,6 @@
             "twitter": "YES"
         },
         {
-            "id": 4952,
-            "title": "Julian Ausserhofer",
-            "name": "Ausserhofer",
-            "firstname": "Julian",
-            "country": "Austria",
-            "city": "Vienna",
-            "institution": "N/A",
-            "github":"YES",
-            "github_url":"http://www.github.com/julianaus",
-            "website": "YES",
-            "website_url": "http://www.ausserhofer.net",
-            "email":"YES",
-            "email_url":"julian.ausserhofer@gmail.com",
-            "pgp":"N/A",
-            "pgp_url":"",
-            "skills": [
-                "Researcher",
-                "Lecturer"
-                
-            ],
-            "image_url": "res/img/julian_ausserhofer.png",
-            "twitter_url": "http://www.twitter.com/boomblitz",
-            "twitter": "YES"
-        },
-        {
             "id": 4951,
             "title": "Cristian Giulietti",
             "name": "Giulietti",
@@ -1240,7 +1215,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/cristian_giulietti.png",
             "twitter_url": "http://www.twitter.com/CrisGiulietti",
@@ -1389,11 +1364,11 @@
             "pgp":"N/A",
             "pgp_url":"",
             "skills": [
-                
+
                 "Lecturer",
                 "Developer",
                 "Data Scientist"
-                
+
             ],
             "image_url": "res/img/juan_elosua.png",
             "twitter_url": "http://www.twitter.com/jjelosua",
@@ -1439,7 +1414,7 @@
             "pgp":"N/A",
             "pgp_url":"",
             "skills": [
-     			
+
                 "Data Journalist",
      			"Journalist",
      			"Researcher",
@@ -1592,7 +1567,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/guido_romeo.png",
             "twitter_url": "http://www.twitter.com/guidoromeo",
@@ -1670,7 +1645,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/daniele_grasso.png",
             "twitter_url": "http://www.twitter.com/danielegrasso",
@@ -1695,7 +1670,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/shannon_service.png",
             "twitter_url": "",
@@ -1720,7 +1695,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/andre_monteiro.png",
             "twitter_url": "http://www.twitter.com/admonteiro",
@@ -1771,7 +1746,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/gerald_gartner.png",
             "twitter_url": "http://www.twitter.com/gerald_gartner",
@@ -2002,7 +1977,7 @@
                 "Designer",
                 "Editor",
                 "Data Scientist"
-                
+
             ],
             "image_url": "res/img/jacopo_ottaviani.png",
             "twitter_url": "http://www.twitter.com/jackottaviani",
@@ -2029,7 +2004,7 @@
                 "Journalist",
                 "Researcher",
                 "Lecturer"
-                
+
             ],
             "image_url": "res/img/noimage.png",
             "twitter_url": "",
@@ -2157,7 +2132,7 @@
                 "Journalist",
                 "Developer",
                 "Designer"
-                
+
             ],
             "image_url": "res/img/markus_hametner.png",
             "twitter_url": "http://www.twitter.com/fin",
@@ -2265,7 +2240,7 @@
                 "Editor",
                 "Data Scientist",
                 "Statistician"
-                
+
             ],
             "image_url": "res/img/jonathan_stray.png",
             "twitter_url": "http://www.twitter.com/jonathanstray",
@@ -2364,7 +2339,7 @@
                 "Journalist",
                 "Lecturer",
                 "Editor"
-                
+
             ],
             "image_url": "res/img/joshua_hatch.png",
             "twitter_url": "http://www.twitter.com/hatchjt",
@@ -2391,7 +2366,7 @@
                 "Journalist",
                 "Developer",
                 "Designer"
-                
+
             ],
             "image_url": "res/img/lucas_portilho.png",
             "twitter_url": "http://www.twitter.com/pt_informer55",
@@ -2414,14 +2389,14 @@
             "pgp":"N/A",
             "pgp_url":"",
             "skills": [
-                
+
                 "Data Journalist",
                 "Researcher",
                 "Developer",
                 "Data Scientist",
                 "GIS",
                 "Statistician"
-                
+
             ],
             "image_url": "res/img/ducquang_nguyen.png",
             "twitter_url": "http://www.twitter.com/duckyduke",
@@ -2575,7 +2550,7 @@
                 "Developer",
                 "Designer",
                 "Data Scientist"
-                
+
             ],
             "image_url": "res/img/mirjam_leunissen.png",
             "twitter_url": "http://www.twitter.com/dutchdatadesign",
@@ -2602,7 +2577,7 @@
                 "Journalist",
                 "Lecturer",
                 "Editor"
-                
+
             ],
             "image_url": "res/img/djordje_padejski.png",
             "twitter_url": "http://www.twitter.com/djordjepadejski",
@@ -2652,7 +2627,7 @@
             "skills": [
                 "Data Journalist",
                 "Journalist"
-                
+
             ],
             "image_url": "res/img/axel_bizelbizellot.png",
             "twitter_url": "http://www.twitter.com/AxelBizel",
@@ -2852,7 +2827,7 @@
             "pgp":"N/A",
             "pgp_url":"",
             "skills": [
-                
+
                 "Data Journalist",
                 "Journalist",
                 "Lecturer",
@@ -5519,6 +5494,6 @@
             "twitter_url": "http://www.twitter.com/juliustroeger",
             "twitter": "YES"
         }
-        
+
     ]
 }
